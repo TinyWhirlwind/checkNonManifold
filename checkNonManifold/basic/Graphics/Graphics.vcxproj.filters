@@ -1,0 +1,648 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="FileFormat">
+      <UniqueIdentifier>{e1299c94-94b2-467e-9535-c96f2b474820}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GeoData">
+      <UniqueIdentifier>{410bd701-c144-4185-a667-59945e4fa342}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Geometry">
+      <UniqueIdentifier>{af379aa7-8138-4813-a88c-31c529334917}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SceneInteract">
+      <UniqueIdentifier>{94320c07-cdac-4acb-9f0b-c75949dfddc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SceneRender">
+      <UniqueIdentifier>{81b58505-70d7-46b5-9abf-18b39cef505a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SceneObject">
+      <UniqueIdentifier>{a66ccf6c-66d6-404e-b64e-61b66c05b0cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FileFormat\asc">
+      <UniqueIdentifier>{eab2ae63-9bf0-4d45-90f1-16bbf4758e98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FileFormat\stl">
+      <UniqueIdentifier>{32426ee6-6d66-4e41-90cb-60f65513af13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FileFormat\obj">
+      <UniqueIdentifier>{6b93759d-eb02-4e45-b4f8-4caa18048ca4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SceneInteract\Navigation">
+      <UniqueIdentifier>{034c9138-ded9-4365-9690-4ae07db9388e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{ecb9a6f4-b178-4044-a102-6609b9c5d4c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SceneInteract\Select">
+      <UniqueIdentifier>{c33abd1f-e2d0-4a11-b3b8-7b931a4bd2db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SceneInteract\Widget">
+      <UniqueIdentifier>{29dd04da-2829-4436-8ff0-41d6a0a102ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SceneObject\AsistObject">
+      <UniqueIdentifier>{0a3905d6-f502-4ada-ae76-f602199958aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SceneRender\Shader">
+      <UniqueIdentifier>{d5f65f7f-a692-4ef5-936c-92215cf25af9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SceneObject\GeometryObj">
+      <UniqueIdentifier>{9a095e5c-4400-404b-9563-7b957753c0fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{e7f6c508-2645-4381-92a1-fb31411f157a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SceneRender\GLSL">
+      <UniqueIdentifier>{e3276acb-c68c-43a8-bec9-0faeda504a05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shadefile">
+      <UniqueIdentifier>{82db9b36-ac5e-4e3b-a8cb-a9b9d2d91e80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FileFormat\ply">
+      <UniqueIdentifier>{fab6b5cc-db31-42ea-bfce-c477079478be}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneRender\InteratorResult.h">
+      <Filter>SceneRender</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\MatrixEigen.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\PCA.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\SparseMat.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="GeoData\MeshData.h">
+      <Filter>GeoData</Filter>
+    </ClInclude>
+    <ClInclude Include="GeoData\MeshTopology.h">
+      <Filter>GeoData</Filter>
+    </ClInclude>
+    <ClInclude Include="GeoData\PointsData.h">
+      <Filter>GeoData</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry\Curvature.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry\SpatialSubdivision.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneRender\Camera.h">
+      <Filter>SceneRender</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneRender\OpenGLDevice.h">
+      <Filter>SceneRender</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneRender\SceneGL.h">
+      <Filter>SceneRender</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneRender\SceneGL2D.h">
+      <Filter>SceneRender</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneRender\SceneGL3D.h">
+      <Filter>SceneRender</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneRender\TextureGL.h">
+      <Filter>SceneRender</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneObject\SceneObject.h">
+      <Filter>SceneObject</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneObject\ScenePointsObj.h">
+      <Filter>SceneObject</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneObject\SceneRangeObj.h">
+      <Filter>SceneObject</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneObject\sn3DMeshRenderer.h">
+      <Filter>SceneObject</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneObject\sn3DPointsRenderer.h">
+      <Filter>SceneObject</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneObject\sn3DRangeRenderer.h">
+      <Filter>SceneObject</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneInteract\Navigation\TrackBall.h">
+      <Filter>SceneInteract\Navigation</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneInteract\Navigation\trackmode.h">
+      <Filter>SceneInteract\Navigation</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneInteract\Navigation\TrackRecorder.h">
+      <Filter>SceneInteract\Navigation</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneInteract\Navigation\TrackUtils.h">
+      <Filter>SceneInteract\Navigation</Filter>
+    </ClInclude>
+    <ClInclude Include="GeoData\GeometryData.h">
+      <Filter>GeoData</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneObject\SceneMeshObj.h">
+      <Filter>SceneObject</Filter>
+    </ClInclude>
+    <ClInclude Include="FileFormat\BaseReader.h">
+      <Filter>FileFormat</Filter>
+    </ClInclude>
+    <ClInclude Include="FileFormat\BaseWriter.h">
+      <Filter>FileFormat</Filter>
+    </ClInclude>
+    <ClInclude Include="FileFormat\MeshExporter.h">
+      <Filter>FileFormat</Filter>
+    </ClInclude>
+    <ClInclude Include="FileFormat\MeshImporter.h">
+      <Filter>FileFormat</Filter>
+    </ClInclude>
+    <ClInclude Include="FileFormat\PointsExporter.h">
+      <Filter>FileFormat</Filter>
+    </ClInclude>
+    <ClInclude Include="FileFormat\PointsImporter.h">
+      <Filter>FileFormat</Filter>
+    </ClInclude>
+    <ClInclude Include="GeoData\RangeData.h">
+      <Filter>GeoData</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneRender\GLDrawFont.h">
+      <Filter>SceneRender</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneRender\InteractorGL3D.h">
+      <Filter>SceneRender</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneRender\LightColorGL.h">
+      <Filter>SceneRender</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry\KDTree2.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry\SpaceBox.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry\SpaceGrid.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry\UniformGrid.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneObject\ColorBar.h">
+      <Filter>SceneObject\AsistObject</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneObject\AxisIcon.h">
+      <Filter>SceneObject\AsistObject</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneObject\glShape.h">
+      <Filter>SceneObject\AsistObject</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneObject\InfoBar.h">
+      <Filter>SceneObject\AsistObject</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneObject\SceneColorMeshObj.h">
+      <Filter>SceneObject</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneObject\SceneCoordSystemObj.h">
+      <Filter>SceneObject</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneObject\glPrimitive.h">
+      <Filter>SceneObject\AsistObject</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneRender\Shader.h">
+      <Filter>SceneRender\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneObject\ObjectMotion.h">
+      <Filter>SceneObject</Filter>
+    </ClInclude>
+    <ClInclude Include="FileFormat\sn3DIOManager.h">
+      <Filter>FileFormat</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneObject\SceneGeometryObj.h">
+      <Filter>SceneObject\GeometryObj</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneObject\SceneLineObj.h">
+      <Filter>SceneObject\GeometryObj</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneObject\SceneSphereObj.h">
+      <Filter>SceneObject\GeometryObj</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneObject\sn3DGeometryRenderer.h">
+      <Filter>SceneObject\GeometryObj</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneObject\sn3DLineRenderer.h">
+      <Filter>SceneObject\GeometryObj</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneObject\sn3DSphereRenderer.h">
+      <Filter>SceneObject\GeometryObj</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\algebra5.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\base.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\box2.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\box3.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\color4.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\gen_normal.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\histogram.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\intersection3.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\lin_algebra.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\line3.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\math.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\matrix.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\matrix33.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\matrix44.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\MatrixData.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Median.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\perlin_noise.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\plane3.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\point_matching.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\point2.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\point3.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\point4.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\quadric.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\quadric5.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\quaternion.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Random.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\random_generator.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\ray3.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\segment3.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\similarity.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\space1.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\SpatialIndex.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\sphere3.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\triangle_triangle3.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\triangle3.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="FileFormat\MeshIOFilter.h">
+      <Filter>FileFormat</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneObject\SceneCurveObj.h">
+      <Filter>SceneObject\GeometryObj</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneObject\sn3DCurveRenderer.h">
+      <Filter>SceneObject\GeometryObj</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneRender\GLSLProgramObject.h">
+      <Filter>SceneRender\GLSL</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneRender\GreyShader.h">
+      <Filter>SceneRender\GLSL</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneRender\NormalColorShader.h">
+      <Filter>SceneRender\GLSL</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneRender\PhongShader.h">
+      <Filter>SceneRender\GLSL</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneRender\SplineShader.h">
+      <Filter>SceneRender\GLSL</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneRender\CrystalShader.h">
+      <Filter>SceneRender\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="GeoData\FaceNormal.h">
+      <Filter>GeoData</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneObject\SceneCircleObj.h">
+      <Filter>SceneObject\GeometryObj</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneObject\sn3DCircleRenderer.h">
+      <Filter>SceneObject\GeometryObj</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneObject\sn3DRenderer.h">
+      <Filter>SceneObject</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneObject\sn3DNewMeshRender.h">
+      <Filter>SceneObject</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneRender\SceneBaseObject.h">
+      <Filter>SceneRender</Filter>
+    </ClInclude>
+    <ClInclude Include="FileFormat\ply\Exporterply.h">
+      <Filter>FileFormat\ply</Filter>
+    </ClInclude>
+    <ClInclude Include="FileFormat\ply\importerply.h">
+      <Filter>FileFormat\ply</Filter>
+    </ClInclude>
+    <ClInclude Include="FileFormat\ply\io_mask.h">
+      <Filter>FileFormat\ply</Filter>
+    </ClInclude>
+    <ClInclude Include="FileFormat\ply\io_ply.h">
+      <Filter>FileFormat\ply</Filter>
+    </ClInclude>
+    <ClInclude Include="FileFormat\ply\plylib.h">
+      <Filter>FileFormat\ply</Filter>
+    </ClInclude>
+    <ClInclude Include="GeoData\MeshGrid.h">
+      <Filter>GeoData</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FileFormat\BaseReader.cpp">
+      <Filter>FileFormat</Filter>
+    </ClCompile>
+    <ClCompile Include="FileFormat\BaseWriter.cpp">
+      <Filter>FileFormat</Filter>
+    </ClCompile>
+    <ClCompile Include="FileFormat\sn3DIOManager.cpp">
+      <Filter>FileFormat</Filter>
+    </ClCompile>
+    <ClCompile Include="FileFormat\stl\ImporterStl.cpp">
+      <Filter>FileFormat\stl</Filter>
+    </ClCompile>
+    <ClCompile Include="FileFormat\stl\STLWriter.cpp">
+      <Filter>FileFormat\stl</Filter>
+    </ClCompile>
+    <ClCompile Include="FileFormat\obj\ImporterObj.cpp">
+      <Filter>FileFormat\obj</Filter>
+    </ClCompile>
+    <ClCompile Include="FileFormat\obj\OBJWriter.cpp">
+      <Filter>FileFormat\obj</Filter>
+    </ClCompile>
+    <ClCompile Include="FileFormat\asc\ASCWriter.cpp">
+      <Filter>FileFormat\asc</Filter>
+    </ClCompile>
+    <ClCompile Include="FileFormat\asc\ImporterAsc.cpp">
+      <Filter>FileFormat\asc</Filter>
+    </ClCompile>
+    <ClCompile Include="GeoData\MeshData.cpp">
+      <Filter>GeoData</Filter>
+    </ClCompile>
+    <ClCompile Include="GeoData\PointsData.cpp">
+      <Filter>GeoData</Filter>
+    </ClCompile>
+    <ClCompile Include="GeoData\MeshTopology.cpp">
+      <Filter>GeoData</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry\SpaceBox.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneObject\SceneMeshObj.cpp">
+      <Filter>SceneObject</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneObject\SceneObject.cpp">
+      <Filter>SceneObject</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneObject\ScenePointsObj.cpp">
+      <Filter>SceneObject</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneObject\sn3DMeshRenderer.cpp">
+      <Filter>SceneObject</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneObject\sn3DPointsRenderer.cpp">
+      <Filter>SceneObject</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneObject\sn3DRenderer.cpp">
+      <Filter>SceneObject</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneRender\Camera.cpp">
+      <Filter>SceneRender</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneRender\InteractorGL3D.cpp">
+      <Filter>SceneRender</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneRender\LightColorGL.cpp">
+      <Filter>SceneRender</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneRender\OpenGLDevice.cpp">
+      <Filter>SceneRender</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneRender\SceneGL.cpp">
+      <Filter>SceneRender</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneRender\SceneGL2D.cpp">
+      <Filter>SceneRender</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneRender\SceneGL3D.cpp">
+      <Filter>SceneRender</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneRender\TextureGL.cpp">
+      <Filter>SceneRender</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneInteract\Navigation\TrackBall.cpp">
+      <Filter>SceneInteract\Navigation</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneInteract\Navigation\TrackMode.cpp">
+      <Filter>SceneInteract\Navigation</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\MatrixEigen.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\PCA.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\SparseMat.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry\Curvature.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry\SpaceGrid.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry\SpatialSubdivision.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry\UniformGrid.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneObject\SceneRangeObj.cpp">
+      <Filter>SceneObject</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneObject\sn3DRangeRenderer.cpp">
+      <Filter>SceneObject</Filter>
+    </ClCompile>
+    <ClCompile Include="GeoData\RangeData.cpp">
+      <Filter>GeoData</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneRender\GLDrawFont.cpp">
+      <Filter>SceneRender</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry\KDTree2.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneObject\ColorBar.cpp">
+      <Filter>SceneObject\AsistObject</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneObject\AxisIcon.cpp">
+      <Filter>SceneObject\AsistObject</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneObject\glShape.cpp">
+      <Filter>SceneObject\AsistObject</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneObject\InfoBar.cpp">
+      <Filter>SceneObject\AsistObject</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneObject\SceneColorMeshObj.cpp">
+      <Filter>SceneObject</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneObject\SceneCoordSystemObj.cpp">
+      <Filter>SceneObject</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneObject\glPrimitive.cpp">
+      <Filter>SceneObject\AsistObject</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneRender\Shader.cpp">
+      <Filter>SceneRender\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneObject\ObjectMotion.cpp">
+      <Filter>SceneObject</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneObject\SceneGeometryObj.cpp">
+      <Filter>SceneObject\GeometryObj</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneObject\SceneLineObj.cpp">
+      <Filter>SceneObject\GeometryObj</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneObject\SceneSphereObj.cpp">
+      <Filter>SceneObject\GeometryObj</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneObject\sn3DGeometryRenderer.cpp">
+      <Filter>SceneObject\GeometryObj</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneObject\sn3DLineRenderer.cpp">
+      <Filter>SceneObject\GeometryObj</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneObject\sn3DSphereRenderer.cpp">
+      <Filter>SceneObject\GeometryObj</Filter>
+    </ClCompile>
+    <ClCompile Include="FileFormat\MeshIOFilter.cpp">
+      <Filter>FileFormat</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneObject\SceneCurveObj.cpp">
+      <Filter>SceneObject\GeometryObj</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneObject\sn3DCurveRenderer.cpp">
+      <Filter>SceneObject\GeometryObj</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneRender\GLSLProgramObject.cpp">
+      <Filter>SceneRender\GLSL</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneRender\GreyShader.cpp">
+      <Filter>SceneRender\GLSL</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneRender\NormalColorShader.cpp">
+      <Filter>SceneRender\GLSL</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneRender\PhongShader.cpp">
+      <Filter>SceneRender\GLSL</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneRender\SplineShader.cpp">
+      <Filter>SceneRender\GLSL</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneRender\CrystalShader.cpp">
+      <Filter>SceneRender\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneObject\SceneCircleObj.cpp">
+      <Filter>SceneObject\GeometryObj</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneObject\sn3DCircleRenderer.cpp">
+      <Filter>SceneObject\GeometryObj</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneObject\sn3DNewMeshRender.cpp">
+      <Filter>SceneObject</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneRender\SceneBaseObject.cpp">
+      <Filter>SceneRender</Filter>
+    </ClCompile>
+    <ClCompile Include="FileFormat\ply\ImporterPly.cpp">
+      <Filter>FileFormat\ply</Filter>
+    </ClCompile>
+    <ClCompile Include="FileFormat\ply\plylib.cpp">
+      <Filter>FileFormat\ply</Filter>
+    </ClCompile>
+    <ClCompile Include="GeoData\MeshGrid.cpp">
+      <Filter>GeoData</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

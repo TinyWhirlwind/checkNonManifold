@@ -1,0 +1,470 @@
+﻿  stdafx.cpp
+  TextureGL.cpp
+  SplineShader.cpp
+  Shader.cpp
+d:\workproject\dentalortho_project\project\graphics\scenerender\shader.cpp(37): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  SceneGL3D.cpp
+d:\workproject\dentalortho_project\project\graphics\scenerender\scenegl3d.cpp(29): warning C4305: “参数”: 从“double”到“const float”截断
+d:\workproject\dentalortho_project\project\graphics\scenerender\scenegl3d.cpp(30): warning C4305: “参数”: 从“double”到“const float”截断
+d:\workproject\dentalortho_project\project\graphics\scenerender\scenegl3d.cpp(31): warning C4305: “参数”: 从“double”到“const float”截断
+d:\workproject\dentalortho_project\project\graphics\scenerender\scenegl3d.cpp(40): warning C4305: “参数”: 从“double”到“const float”截断
+d:\workproject\dentalortho_project\project\graphics\scenerender\scenegl3d.cpp(41): warning C4305: “参数”: 从“double”到“const float”截断
+d:\workproject\dentalortho_project\project\graphics\scenerender\scenegl3d.cpp(42): warning C4305: “参数”: 从“double”到“const float”截断
+d:\workproject\dentalortho_project\project\graphics\scenerender\scenegl3d.cpp(43): warning C4305: “参数”: 从“double”到“const float”截断
+d:\workproject\dentalortho_project\project\graphics\scenerender\scenegl3d.cpp(44): warning C4305: “参数”: 从“double”到“const float”截断
+d:\workproject\dentalortho_project\project\graphics\scenerender\scenegl3d.cpp(45): warning C4305: “参数”: 从“double”到“const float”截断
+d:\workproject\dentalortho_project\project\graphics\scenerender\scenegl3d.cpp(46): warning C4305: “参数”: 从“double”到“const float”截断
+d:\workproject\dentalortho_project\project\graphics\scenerender\scenegl3d.cpp(47): warning C4305: “参数”: 从“double”到“const float”截断
+d:\workproject\dentalortho_project\project\graphics\scenerender\scenegl3d.cpp(48): warning C4305: “参数”: 从“double”到“const float”截断
+d:\workproject\dentalortho_project\project\graphics\scenerender\scenegl3d.cpp(49): warning C4305: “参数”: 从“double”到“const float”截断
+d:\workproject\dentalortho_project\project\graphics\scenerender\scenegl3d.cpp(50): warning C4305: “参数”: 从“double”到“const float”截断
+d:\workproject\dentalortho_project\project\graphics\scenerender\scenegl3d.cpp(51): warning C4305: “参数”: 从“double”到“const float”截断
+d:\workproject\dentalortho_project\project\graphics\scenerender\scenegl3d.cpp(52): warning C4305: “参数”: 从“double”到“const float”截断
+d:\workproject\dentalortho_project\project\graphics\scenerender\scenegl3d.cpp(53): warning C4305: “参数”: 从“double”到“const float”截断
+d:\workproject\dentalortho_project\project\graphics\scenerender\scenegl3d.cpp(54): warning C4305: “参数”: 从“double”到“const float”截断
+d:\workproject\dentalortho_project\project\graphics\scenerender\scenegl3d.cpp(55): warning C4305: “参数”: 从“double”到“const float”截断
+d:\workproject\dentalortho_project\project\graphics\scenerender\scenegl3d.cpp(56): warning C4305: “参数”: 从“double”到“const float”截断
+d:\workproject\dentalortho_project\project\graphics\scenerender\scenegl3d.cpp(57): warning C4305: “参数”: 从“double”到“const float”截断
+d:\workproject\dentalortho_project\project\graphics\scenerender\scenegl3d.cpp(58): warning C4305: “参数”: 从“double”到“const float”截断
+d:\workproject\dentalortho_project\project\graphics\scenerender\scenegl3d.cpp(59): warning C4305: “参数”: 从“double”到“const float”截断
+d:\workproject\dentalortho_project\project\graphics\scenerender\scenegl3d.cpp(60): warning C4305: “参数”: 从“double”到“const float”截断
+d:\workproject\dentalortho_project\project\graphics\scenerender\scenegl3d.cpp(61): warning C4305: “参数”: 从“double”到“const float”截断
+d:\workproject\dentalortho_project\project\graphics\scenerender\scenegl3d.cpp(62): warning C4305: “参数”: 从“double”到“const float”截断
+d:\workproject\dentalortho_project\project\graphics\scenerender\scenegl3d.cpp(63): warning C4305: “参数”: 从“double”到“const float”截断
+d:\workproject\dentalortho_project\project\graphics\scenerender\scenegl3d.cpp(64): warning C4305: “参数”: 从“double”到“const float”截断
+d:\workproject\dentalortho_project\project\graphics\scenerender\scenegl3d.cpp(65): warning C4305: “参数”: 从“double”到“const float”截断
+d:\workproject\dentalortho_project\project\graphics\scenerender\scenegl3d.cpp(66): warning C4305: “参数”: 从“double”到“const float”截断
+d:\workproject\dentalortho_project\project\graphics\scenerender\scenegl3d.cpp(67): warning C4305: “参数”: 从“double”到“const float”截断
+d:\workproject\dentalortho_project\project\graphics\scenerender\scenegl3d.cpp(68): warning C4305: “参数”: 从“double”到“const float”截断
+d:\workproject\dentalortho_project\project\graphics\scenerender\scenegl3d.cpp(69): warning C4305: “参数”: 从“double”到“const float”截断
+d:\workproject\dentalortho_project\project\graphics\scenerender\scenegl3d.cpp(70): warning C4305: “参数”: 从“double”到“const float”截断
+d:\workproject\dentalortho_project\project\graphics\scenerender\scenegl3d.cpp(71): warning C4305: “参数”: 从“double”到“const float”截断
+d:\workproject\dentalortho_project\project\graphics\scenerender\scenegl3d.cpp(72): warning C4305: “参数”: 从“double”到“const float”截断
+d:\workproject\dentalortho_project\project\graphics\scenerender\scenegl3d.cpp(73): warning C4305: “参数”: 从“double”到“const float”截断
+d:\workproject\dentalortho_project\project\graphics\scenerender\scenegl3d.cpp(74): warning C4305: “参数”: 从“double”到“const float”截断
+d:\workproject\dentalortho_project\project\graphics\scenerender\scenegl3d.cpp(75): warning C4305: “参数”: 从“double”到“const float”截断
+d:\workproject\dentalortho_project\project\graphics\scenerender\scenegl3d.cpp(76): warning C4305: “参数”: 从“double”到“const float”截断
+d:\workproject\dentalortho_project\project\graphics\scenerender\scenegl3d.cpp(77): warning C4305: “参数”: 从“double”到“const float”截断
+d:\workproject\dentalortho_project\project\graphics\scenerender\scenegl3d.cpp(78): warning C4305: “参数”: 从“double”到“const float”截断
+d:\workproject\dentalortho_project\project\graphics\scenerender\scenegl3d.cpp(79): warning C4305: “参数”: 从“double”到“const float”截断
+d:\workproject\dentalortho_project\project\graphics\scenerender\scenegl3d.cpp(80): warning C4305: “参数”: 从“double”到“const float”截断
+d:\workproject\dentalortho_project\project\graphics\scenerender\scenegl3d.cpp(81): warning C4305: “参数”: 从“double”到“const float”截断
+d:\workproject\dentalortho_project\project\graphics\scenerender\scenegl3d.cpp(82): warning C4305: “参数”: 从“double”到“const float”截断
+d:\workproject\dentalortho_project\project\graphics\scenerender\scenegl3d.cpp(83): warning C4305: “参数”: 从“double”到“const float”截断
+d:\workproject\dentalortho_project\project\graphics\scenerender\scenegl3d.cpp(84): warning C4305: “参数”: 从“double”到“const float”截断
+d:\workproject\dentalortho_project\project\graphics\scenerender\scenegl3d.cpp(85): warning C4305: “参数”: 从“double”到“const float”截断
+d:\workproject\dentalortho_project\project\graphics\scenerender\scenegl3d.cpp(447): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\scenerender\scenegl3d.cpp(721): warning C4305: “参数”: 从“double”到“GLfloat”截断
+d:\workproject\dentalortho_project\project\graphics\scenerender\scenegl3d.cpp(725): warning C4305: “参数”: 从“double”到“GLfloat”截断
+  SceneGL2D.cpp
+  SceneGL.cpp
+  SceneBaseObject.cpp
+d:\workproject\dentalortho_project\project\graphics\scenerender\scenebaseobject.cpp(35): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\scenerender\scenebaseobject.cpp(55): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\scenerender\scenebaseobject.cpp(95): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\scenerender\scenebaseobject.cpp(130): warning C4305: “return”: 从“int”到“bool”截断
+d:\workproject\dentalortho_project\project\graphics\scenerender\scenebaseobject.cpp(170): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\scenerender\scenebaseobject.cpp(196): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\scenerender\scenebaseobject.cpp(223): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\scenerender\scenebaseobject.cpp(247): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\scenerender\scenebaseobject.cpp(271): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\scenerender\scenebaseobject.cpp(302): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  PhongShader.cpp
+  OpenGLDevice.cpp
+  NormalColorShader.cpp
+  LightColorGL.cpp
+d:\workproject\dentalortho_project\project\graphics\scenerender\lightcolorgl.cpp(21): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\scenerender\lightcolorgl.cpp(45): warning C4305: “=”: 从“double”到“float”截断
+d:\workproject\dentalortho_project\project\graphics\scenerender\lightcolorgl.cpp(46): warning C4305: “=”: 从“double”到“float”截断
+d:\workproject\dentalortho_project\project\graphics\scenerender\lightcolorgl.cpp(47): warning C4305: “=”: 从“double”到“float”截断
+  InteractorGL3D.cpp
+d:\workproject\dentalortho_project\project\graphics\scenerender\interactorgl3d.cpp(30): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\scenerender\interactorgl3d.cpp(31): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\scenerender\interactorgl3d.cpp(32): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\scenerender\interactorgl3d.cpp(100): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\scenerender\interactorgl3d.cpp(101): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\scenerender\interactorgl3d.cpp(102): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\scenerender\interactorgl3d.cpp(122): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\scenerender\interactorgl3d.cpp(123): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\scenerender\interactorgl3d.cpp(124): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\scenerender\interactorgl3d.cpp(134): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\scenerender\interactorgl3d.cpp(135): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\scenerender\interactorgl3d.cpp(136): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+  GreyShader.cpp
+  GLSLProgramObject.cpp
+  GLDrawFont.cpp
+d:\workproject\dentalortho_project\project\graphics\scenerender\gldrawfont.cpp(34): warning C4267: “参数”: 从“size_t”转换到“GLsizei”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\scenerender\gldrawfont.cpp(42): warning C4267: “参数”: 从“size_t”转换到“GLsizei”，可能丢失数据
+  CrystalShader.cpp
+d:\workproject\dentalortho_project\project\graphics\scenerender\crystalshader.cpp(206): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\scenerender\crystalshader.cpp(207): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\scenerender\crystalshader.cpp(208): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\scenerender\crystalshader.cpp(214): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\scenerender\crystalshader.cpp(215): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\scenerender\crystalshader.cpp(216): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\scenerender\crystalshader.cpp(255): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\scenerender\crystalshader.cpp(310): warning C4305: “=”: 从“double”到“float”截断
+d:\workproject\dentalortho_project\project\graphics\scenerender\crystalshader.cpp(311): warning C4305: “=”: 从“double”到“float”截断
+d:\workproject\dentalortho_project\project\graphics\scenerender\crystalshader.cpp(312): warning C4305: “=”: 从“double”到“float”截断
+d:\workproject\dentalortho_project\project\graphics\scenerender\crystalshader.cpp(314): warning C4305: “参数”: 从“double”到“GLfloat”截断
+  Camera.cpp
+  sn3DSphereRenderer.cpp
+d:\workproject\dentalortho_project\project\graphics\sceneobject\glshape.h(14): warning C4305: “参数”: 从“double”到“const float”截断
+  sn3DRenderer.cpp
+  sn3DRangeRenderer.cpp
+d:\workproject\dentalortho_project\project\graphics\sceneobject\sn3drangerenderer.cpp(236): warning C4244: “参数”: 从“int”转换到“GLfloat”，可能丢失数据
+  正在生成代码...
+  正在编译...
+  sn3DPointsRenderer.cpp
+  sn3DNewMeshRender.cpp
+d:\workproject\dentalortho_project\project\graphics\sceneobject\sn3dnewmeshrender.cpp(146): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+d:\workproject\dentalortho_project\project\graphics\sceneobject\sn3dnewmeshrender.cpp(268): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\sceneobject\sn3dnewmeshrender.cpp(269): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\sceneobject\sn3dnewmeshrender.cpp(312): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\sceneobject\sn3dnewmeshrender.cpp(313): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\sceneobject\sn3dnewmeshrender.cpp(355): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\sceneobject\sn3dnewmeshrender.cpp(356): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\sceneobject\sn3dnewmeshrender.cpp(437): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\sceneobject\sn3dnewmeshrender.cpp(438): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\sceneobject\sn3dnewmeshrender.cpp(481): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\sceneobject\sn3dnewmeshrender.cpp(482): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\sceneobject\sn3dnewmeshrender.cpp(525): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\sceneobject\sn3dnewmeshrender.cpp(526): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  sn3DMeshRenderer.cpp
+d:\workproject\dentalortho_project\project\graphics\sceneobject\sn3dmeshrenderer.cpp(474): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\sceneobject\sn3dmeshrenderer.cpp(475): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\sceneobject\sn3dmeshrenderer.cpp(522): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\sceneobject\sn3dmeshrenderer.cpp(523): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\sceneobject\sn3dmeshrenderer.cpp(570): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\sceneobject\sn3dmeshrenderer.cpp(571): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  sn3DLineRenderer.cpp
+  sn3DGeometryRenderer.cpp
+  sn3DCurveRenderer.cpp
+d:\workproject\dentalortho_project\project\graphics\sceneobject\sn3dcurverenderer.cpp(36): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  sn3DCircleRenderer.cpp
+d:\workproject\dentalortho_project\project\graphics\sceneobject\sn3dcirclerenderer.cpp(32): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  SceneSphereObj.cpp
+  SceneRangeObj.cpp
+d:\workproject\dentalortho_project\project\graphics\sceneobject\scenerangeobj.cpp(43): warning C4305: “=”: 从“double”到“float”截断
+d:\workproject\dentalortho_project\project\graphics\sceneobject\scenerangeobj.cpp(121): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\sceneobject\scenerangeobj.cpp(523): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\sceneobject\scenerangeobj.cpp(564): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  glPrimitive.cpp
+d:\workproject\dentalortho_project\project\graphics\sceneobject\glprimitive.cpp(25): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\sceneobject\glprimitive.cpp(44): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\sceneobject\glprimitive.cpp(53): warning C4305: “=”: 从“double”到“float”截断
+d:\workproject\dentalortho_project\project\graphics\sceneobject\glprimitive.cpp(62): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\sceneobject\glprimitive.cpp(167): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\sceneobject\glprimitive.cpp(183): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\sceneobject\glprimitive.cpp(192): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\sceneobject\glprimitive.cpp(205): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\sceneobject\glprimitive.cpp(213): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\sceneobject\glprimitive.cpp(232): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\sceneobject\glprimitive.cpp(240): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\sceneobject\glprimitive.cpp(269): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\sceneobject\glprimitive.cpp(277): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\sceneobject\glprimitive.cpp(369): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\sceneobject\glprimitive.cpp(419): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\sceneobject\glprimitive.cpp(436): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\sceneobject\glprimitive.cpp(486): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\sceneobject\glprimitive.cpp(503): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\sceneobject\glprimitive.cpp(562): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\sceneobject\glprimitive.cpp(570): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\sceneobject\glprimitive.cpp(651): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\sceneobject\glprimitive.cpp(659): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\sceneobject\glprimitive.cpp(741): warning C4838: 从“double”转换到“float”需要收缩转换
+d:\workproject\dentalortho_project\project\graphics\sceneobject\glprimitive.cpp(741): warning C4305: “初始化”: 从“double”到“float”截断
+d:\workproject\dentalortho_project\project\graphics\sceneobject\glprimitive.cpp(776): warning C4305: “=”: 从“double”到“GLfloat”截断
+d:\workproject\dentalortho_project\project\graphics\sceneobject\glprimitive.cpp(777): warning C4305: “=”: 从“double”到“GLfloat”截断
+d:\workproject\dentalortho_project\project\graphics\sceneobject\glprimitive.cpp(778): warning C4305: “=”: 从“double”到“GLfloat”截断
+d:\workproject\dentalortho_project\project\graphics\sceneobject\glprimitive.cpp(789): warning C4305: “参数”: 从“double”到“GLfloat”截断
+d:\workproject\dentalortho_project\project\graphics\sceneobject\glprimitive.cpp(827): warning C4838: 从“double”转换到“float”需要收缩转换
+d:\workproject\dentalortho_project\project\graphics\sceneobject\glprimitive.cpp(827): warning C4305: “初始化”: 从“double”到“float”截断
+d:\workproject\dentalortho_project\project\graphics\sceneobject\glprimitive.cpp(844): warning C4305: “=”: 从“double”到“GLfloat”截断
+d:\workproject\dentalortho_project\project\graphics\sceneobject\glprimitive.cpp(845): warning C4305: “=”: 从“double”到“GLfloat”截断
+d:\workproject\dentalortho_project\project\graphics\sceneobject\glprimitive.cpp(846): warning C4305: “=”: 从“double”到“GLfloat”截断
+d:\workproject\dentalortho_project\project\graphics\sceneobject\glprimitive.cpp(857): warning C4305: “参数”: 从“double”到“GLfloat”截断
+d:\workproject\dentalortho_project\project\graphics\sceneobject\glprimitive.cpp(899): warning C4838: 从“double”转换到“float”需要收缩转换
+d:\workproject\dentalortho_project\project\graphics\sceneobject\glprimitive.cpp(899): warning C4305: “初始化”: 从“double”到“float”截断
+d:\workproject\dentalortho_project\project\graphics\sceneobject\glprimitive.cpp(920): warning C4305: “=”: 从“double”到“GLfloat”截断
+d:\workproject\dentalortho_project\project\graphics\sceneobject\glprimitive.cpp(921): warning C4305: “=”: 从“double”到“GLfloat”截断
+d:\workproject\dentalortho_project\project\graphics\sceneobject\glprimitive.cpp(922): warning C4305: “=”: 从“double”到“GLfloat”截断
+d:\workproject\dentalortho_project\project\graphics\sceneobject\glprimitive.cpp(933): warning C4305: “参数”: 从“double”到“GLfloat”截断
+d:\workproject\dentalortho_project\project\graphics\common\point3.h(230): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+  d:\workproject\dentalortho_project\project\graphics\common\point3.h(229): note: 同时编译类 模板 的成员函数“Point3<float> &Point3<float>::Normalize(void)”
+  d:\workproject\dentalortho_project\project\graphics\sceneobject\glprimitive.cpp(93): note: 参见对正在编译的函数 模板 实例化“Point3<float> &Point3<float>::Normalize(void)”的引用
+  d:\workproject\dentalortho_project\project\graphics\sceneobject\glprimitive.cpp(12): note: 请参阅对要编译的类 模板 的实例化“Point3<float>”的引用
+  ScenePointsObj.cpp
+  SceneObject.cpp
+  SceneMeshObj.cpp
+  SceneLineObj.cpp
+  SceneGeometryObj.cpp
+  SceneCurveObj.cpp
+  InfoBar.cpp
+d:\workproject\dentalortho_project\project\graphics\sceneobject\infobar.cpp(44): warning C4305: “参数”: 从“double”到“const float”截断
+d:\workproject\dentalortho_project\project\graphics\sceneobject\infobar.cpp(58): warning C4305: “=”: 从“double”到“float”截断
+d:\workproject\dentalortho_project\project\graphics\sceneobject\infobar.cpp(66): warning C4305: “=”: 从“double”到“float”截断
+d:\workproject\dentalortho_project\project\graphics\sceneobject\infobar.cpp(62): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+d:\workproject\dentalortho_project\project\graphics\sceneobject\infobar.cpp(70): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+d:\workproject\dentalortho_project\project\graphics\sceneobject\infobar.cpp(85): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\sceneobject\infobar.cpp(115): warning C4267: “参数”: 从“size_t”转换到“GLsizei”，可能丢失数据
+  glShape.cpp
+d:\workproject\dentalortho_project\project\graphics\sceneobject\glshape.h(14): warning C4305: “参数”: 从“double”到“const float”截断
+d:\workproject\dentalortho_project\project\graphics\sceneobject\glshape.cpp(87): warning C4305: “参数”: 从“double”到“GLfloat”截断
+d:\workproject\dentalortho_project\project\graphics\sceneobject\glshape.cpp(859): warning C4305: “初始化”: 从“double”到“float”截断
+d:\workproject\dentalortho_project\project\graphics\sceneobject\glshape.cpp(907): warning C4305: “参数”: 从“double”到“const float”截断
+  SceneCoordSystemObj.cpp
+d:\workproject\dentalortho_project\project\graphics\sceneobject\scenecoordsystemobj.cpp(57): warning C4305: “=”: 从“double”到“float”截断
+d:\workproject\dentalortho_project\project\graphics\sceneobject\scenecoordsystemobj.cpp(176): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\sceneobject\scenecoordsystemobj.cpp(192): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\sceneobject\scenecoordsystemobj.cpp(201): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\sceneobject\scenecoordsystemobj.cpp(215): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\sceneobject\scenecoordsystemobj.cpp(223): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\sceneobject\scenecoordsystemobj.cpp(242): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\sceneobject\scenecoordsystemobj.cpp(250): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\sceneobject\scenecoordsystemobj.cpp(282): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\sceneobject\scenecoordsystemobj.cpp(290): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\sceneobject\scenecoordsystemobj.cpp(389): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\sceneobject\scenecoordsystemobj.cpp(446): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\sceneobject\scenecoordsystemobj.cpp(463): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\sceneobject\scenecoordsystemobj.cpp(515): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\sceneobject\scenecoordsystemobj.cpp(532): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\sceneobject\scenecoordsystemobj.cpp(594): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\sceneobject\scenecoordsystemobj.cpp(602): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\sceneobject\scenecoordsystemobj.cpp(688): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\sceneobject\scenecoordsystemobj.cpp(696): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\sceneobject\scenecoordsystemobj.cpp(771): warning C4305: “=”: 从“double”到“GLfloat”截断
+d:\workproject\dentalortho_project\project\graphics\sceneobject\scenecoordsystemobj.cpp(772): warning C4305: “=”: 从“double”到“GLfloat”截断
+d:\workproject\dentalortho_project\project\graphics\sceneobject\scenecoordsystemobj.cpp(773): warning C4305: “=”: 从“double”到“GLfloat”截断
+d:\workproject\dentalortho_project\project\graphics\sceneobject\scenecoordsystemobj.cpp(783): warning C4305: “=”: 从“double”到“GLfloat”截断
+d:\workproject\dentalortho_project\project\graphics\sceneobject\scenecoordsystemobj.cpp(784): warning C4305: “=”: 从“double”到“GLfloat”截断
+d:\workproject\dentalortho_project\project\graphics\sceneobject\scenecoordsystemobj.cpp(785): warning C4305: “=”: 从“double”到“GLfloat”截断
+d:\workproject\dentalortho_project\project\graphics\sceneobject\scenecoordsystemobj.cpp(793): warning C4305: “参数”: 从“double”到“float”截断
+d:\workproject\dentalortho_project\project\graphics\sceneobject\scenecoordsystemobj.cpp(796): warning C4305: “参数”: 从“double”到“float”截断
+d:\workproject\dentalortho_project\project\graphics\sceneobject\scenecoordsystemobj.cpp(797): warning C4305: “参数”: 从“double”到“GLfloat”截断
+d:\workproject\dentalortho_project\project\graphics\sceneobject\scenecoordsystemobj.cpp(803): warning C4305: “=”: 从“double”到“GLfloat”截断
+d:\workproject\dentalortho_project\project\graphics\sceneobject\scenecoordsystemobj.cpp(804): warning C4305: “=”: 从“double”到“GLfloat”截断
+d:\workproject\dentalortho_project\project\graphics\sceneobject\scenecoordsystemobj.cpp(805): warning C4305: “=”: 从“double”到“GLfloat”截断
+d:\workproject\dentalortho_project\project\graphics\sceneobject\scenecoordsystemobj.cpp(814): warning C4305: “参数”: 从“double”到“float”截断
+d:\workproject\dentalortho_project\project\graphics\sceneobject\scenecoordsystemobj.cpp(817): warning C4305: “参数”: 从“double”到“float”截断
+d:\workproject\dentalortho_project\project\graphics\sceneobject\scenecoordsystemobj.cpp(818): warning C4305: “参数”: 从“double”到“GLfloat”截断
+d:\workproject\dentalortho_project\project\graphics\sceneobject\scenecoordsystemobj.cpp(824): warning C4305: “=”: 从“double”到“GLfloat”截断
+d:\workproject\dentalortho_project\project\graphics\sceneobject\scenecoordsystemobj.cpp(825): warning C4305: “=”: 从“double”到“GLfloat”截断
+d:\workproject\dentalortho_project\project\graphics\sceneobject\scenecoordsystemobj.cpp(826): warning C4305: “=”: 从“double”到“GLfloat”截断
+d:\workproject\dentalortho_project\project\graphics\sceneobject\scenecoordsystemobj.cpp(835): warning C4305: “参数”: 从“double”到“float”截断
+d:\workproject\dentalortho_project\project\graphics\sceneobject\scenecoordsystemobj.cpp(838): warning C4305: “参数”: 从“double”到“float”截断
+d:\workproject\dentalortho_project\project\graphics\sceneobject\scenecoordsystemobj.cpp(839): warning C4305: “参数”: 从“double”到“GLfloat”截断
+d:\workproject\dentalortho_project\project\graphics\sceneobject\scenecoordsystemobj.cpp(864): warning C4838: 从“double”转换到“float”需要收缩转换
+d:\workproject\dentalortho_project\project\graphics\sceneobject\scenecoordsystemobj.cpp(864): warning C4305: “初始化”: 从“double”到“float”截断
+d:\workproject\dentalortho_project\project\graphics\sceneobject\scenecoordsystemobj.cpp(900): warning C4305: “=”: 从“double”到“GLfloat”截断
+d:\workproject\dentalortho_project\project\graphics\sceneobject\scenecoordsystemobj.cpp(901): warning C4305: “=”: 从“double”到“GLfloat”截断
+d:\workproject\dentalortho_project\project\graphics\sceneobject\scenecoordsystemobj.cpp(902): warning C4305: “=”: 从“double”到“GLfloat”截断
+d:\workproject\dentalortho_project\project\graphics\sceneobject\scenecoordsystemobj.cpp(913): warning C4305: “参数”: 从“double”到“GLfloat”截断
+d:\workproject\dentalortho_project\project\graphics\sceneobject\scenecoordsystemobj.cpp(950): warning C4838: 从“double”转换到“float”需要收缩转换
+d:\workproject\dentalortho_project\project\graphics\sceneobject\scenecoordsystemobj.cpp(950): warning C4305: “初始化”: 从“double”到“float”截断
+d:\workproject\dentalortho_project\project\graphics\sceneobject\scenecoordsystemobj.cpp(967): warning C4305: “=”: 从“double”到“GLfloat”截断
+d:\workproject\dentalortho_project\project\graphics\sceneobject\scenecoordsystemobj.cpp(968): warning C4305: “=”: 从“double”到“GLfloat”截断
+d:\workproject\dentalortho_project\project\graphics\sceneobject\scenecoordsystemobj.cpp(969): warning C4305: “=”: 从“double”到“GLfloat”截断
+d:\workproject\dentalortho_project\project\graphics\sceneobject\scenecoordsystemobj.cpp(981): warning C4305: “参数”: 从“double”到“GLfloat”截断
+d:\workproject\dentalortho_project\project\graphics\sceneobject\scenecoordsystemobj.cpp(1022): warning C4838: 从“double”转换到“float”需要收缩转换
+d:\workproject\dentalortho_project\project\graphics\sceneobject\scenecoordsystemobj.cpp(1022): warning C4305: “初始化”: 从“double”到“float”截断
+d:\workproject\dentalortho_project\project\graphics\sceneobject\scenecoordsystemobj.cpp(1043): warning C4305: “=”: 从“double”到“GLfloat”截断
+d:\workproject\dentalortho_project\project\graphics\sceneobject\scenecoordsystemobj.cpp(1044): warning C4305: “=”: 从“double”到“GLfloat”截断
+d:\workproject\dentalortho_project\project\graphics\sceneobject\scenecoordsystemobj.cpp(1045): warning C4305: “=”: 从“double”到“GLfloat”截断
+d:\workproject\dentalortho_project\project\graphics\sceneobject\scenecoordsystemobj.cpp(1056): warning C4305: “参数”: 从“double”到“GLfloat”截断
+  SceneColorMeshObj.cpp
+d:\workproject\dentalortho_project\project\graphics\sceneobject\scenecolormeshobj.cpp(57): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\sceneobject\scenecolormeshobj.cpp(59): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\sceneobject\scenecolormeshobj.cpp(60): warning C4244: “-=”: 从“double”转换到“float”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\sceneobject\scenecolormeshobj.cpp(63): warning C4305: “=”: 从“double”到“float”截断
+d:\workproject\dentalortho_project\project\graphics\sceneobject\scenecolormeshobj.cpp(65): warning C4305: “=”: 从“double”到“float”截断
+d:\workproject\dentalortho_project\project\graphics\sceneobject\scenecolormeshobj.cpp(66): warning C4305: “=”: 从“double”到“float”截断
+d:\workproject\dentalortho_project\project\graphics\sceneobject\scenecolormeshobj.cpp(90): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\sceneobject\scenecolormeshobj.cpp(92): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\sceneobject\scenecolormeshobj.cpp(93): warning C4244: “-=”: 从“double”转换到“float”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\sceneobject\scenecolormeshobj.cpp(95): warning C4305: “=”: 从“double”到“float”截断
+d:\workproject\dentalortho_project\project\graphics\sceneobject\scenecolormeshobj.cpp(96): warning C4305: “=”: 从“double”到“float”截断
+d:\workproject\dentalortho_project\project\graphics\sceneobject\scenecolormeshobj.cpp(128): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\sceneobject\scenecolormeshobj.cpp(145): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+  正在生成代码...
+  正在编译...
+  SceneCircleObj.cpp
+  ObjectMotion.cpp
+  ColorBar.cpp
+d:\workproject\dentalortho_project\project\graphics\sceneobject\colorbar.cpp(16): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\sceneobject\colorbar.cpp(170): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+d:\workproject\dentalortho_project\project\graphics\sceneobject\colorbar.cpp(186): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\sceneobject\colorbar.cpp(195): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\sceneobject\colorbar.cpp(201): warning C4267: “参数”: 从“size_t”转换到“GLsizei”，可能丢失数据
+  AxisIcon.cpp
+d:\workproject\dentalortho_project\project\graphics\sceneobject\axisicon.cpp(92): warning C4305: “=”: 从“double”到“float”截断
+d:\workproject\dentalortho_project\project\graphics\sceneobject\axisicon.cpp(207): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\sceneobject\axisicon.cpp(221): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\sceneobject\axisicon.cpp(229): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\sceneobject\axisicon.cpp(240): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\sceneobject\axisicon.cpp(248): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\sceneobject\axisicon.cpp(264): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\sceneobject\axisicon.cpp(272): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\sceneobject\axisicon.cpp(301): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\sceneobject\axisicon.cpp(309): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\sceneobject\axisicon.cpp(397): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\sceneobject\axisicon.cpp(448): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\sceneobject\axisicon.cpp(465): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\sceneobject\axisicon.cpp(515): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\sceneobject\axisicon.cpp(532): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\sceneobject\axisicon.cpp(593): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\sceneobject\axisicon.cpp(601): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\sceneobject\axisicon.cpp(682): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\sceneobject\axisicon.cpp(690): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\sceneobject\axisicon.cpp(773): warning C4838: 从“double”转换到“float”需要收缩转换
+d:\workproject\dentalortho_project\project\graphics\sceneobject\axisicon.cpp(773): warning C4305: “初始化”: 从“double”到“float”截断
+d:\workproject\dentalortho_project\project\graphics\sceneobject\axisicon.cpp(809): warning C4305: “=”: 从“double”到“GLfloat”截断
+d:\workproject\dentalortho_project\project\graphics\sceneobject\axisicon.cpp(810): warning C4305: “=”: 从“double”到“GLfloat”截断
+d:\workproject\dentalortho_project\project\graphics\sceneobject\axisicon.cpp(811): warning C4305: “=”: 从“double”到“GLfloat”截断
+d:\workproject\dentalortho_project\project\graphics\sceneobject\axisicon.cpp(822): warning C4305: “参数”: 从“double”到“GLfloat”截断
+d:\workproject\dentalortho_project\project\graphics\sceneobject\axisicon.cpp(860): warning C4838: 从“double”转换到“float”需要收缩转换
+d:\workproject\dentalortho_project\project\graphics\sceneobject\axisicon.cpp(860): warning C4305: “初始化”: 从“double”到“float”截断
+d:\workproject\dentalortho_project\project\graphics\sceneobject\axisicon.cpp(877): warning C4305: “=”: 从“double”到“GLfloat”截断
+d:\workproject\dentalortho_project\project\graphics\sceneobject\axisicon.cpp(878): warning C4305: “=”: 从“double”到“GLfloat”截断
+d:\workproject\dentalortho_project\project\graphics\sceneobject\axisicon.cpp(879): warning C4305: “=”: 从“double”到“GLfloat”截断
+d:\workproject\dentalortho_project\project\graphics\sceneobject\axisicon.cpp(891): warning C4305: “参数”: 从“double”到“GLfloat”截断
+d:\workproject\dentalortho_project\project\graphics\sceneobject\axisicon.cpp(933): warning C4838: 从“double”转换到“float”需要收缩转换
+d:\workproject\dentalortho_project\project\graphics\sceneobject\axisicon.cpp(933): warning C4305: “初始化”: 从“double”到“float”截断
+d:\workproject\dentalortho_project\project\graphics\sceneobject\axisicon.cpp(954): warning C4305: “=”: 从“double”到“GLfloat”截断
+d:\workproject\dentalortho_project\project\graphics\sceneobject\axisicon.cpp(955): warning C4305: “=”: 从“double”到“GLfloat”截断
+d:\workproject\dentalortho_project\project\graphics\sceneobject\axisicon.cpp(956): warning C4305: “=”: 从“double”到“GLfloat”截断
+d:\workproject\dentalortho_project\project\graphics\sceneobject\axisicon.cpp(967): warning C4305: “参数”: 从“double”到“GLfloat”截断
+d:\workproject\dentalortho_project\project\graphics\sceneobject\axisicon.cpp(1057): warning C4305: “=”: 从“double”到“GLfloat”截断
+d:\workproject\dentalortho_project\project\graphics\sceneobject\axisicon.cpp(1058): warning C4305: “=”: 从“double”到“GLfloat”截断
+d:\workproject\dentalortho_project\project\graphics\sceneobject\axisicon.cpp(1059): warning C4305: “=”: 从“double”到“GLfloat”截断
+d:\workproject\dentalortho_project\project\graphics\sceneobject\axisicon.cpp(1068): warning C4305: “=”: 从“double”到“GLfloat”截断
+d:\workproject\dentalortho_project\project\graphics\sceneobject\axisicon.cpp(1069): warning C4305: “=”: 从“double”到“GLfloat”截断
+d:\workproject\dentalortho_project\project\graphics\sceneobject\axisicon.cpp(1070): warning C4305: “=”: 从“double”到“GLfloat”截断
+d:\workproject\dentalortho_project\project\graphics\sceneobject\axisicon.cpp(1077): warning C4305: “参数”: 从“double”到“float”截断
+d:\workproject\dentalortho_project\project\graphics\sceneobject\axisicon.cpp(1079): warning C4305: “参数”: 从“double”到“float”截断
+d:\workproject\dentalortho_project\project\graphics\sceneobject\axisicon.cpp(1081): warning C4305: “参数”: 从“double”到“GLfloat”截断
+d:\workproject\dentalortho_project\project\graphics\sceneobject\axisicon.cpp(1089): warning C4305: “=”: 从“double”到“GLfloat”截断
+d:\workproject\dentalortho_project\project\graphics\sceneobject\axisicon.cpp(1090): warning C4305: “=”: 从“double”到“GLfloat”截断
+d:\workproject\dentalortho_project\project\graphics\sceneobject\axisicon.cpp(1091): warning C4305: “=”: 从“double”到“GLfloat”截断
+d:\workproject\dentalortho_project\project\graphics\sceneobject\axisicon.cpp(1099): warning C4305: “参数”: 从“double”到“float”截断
+d:\workproject\dentalortho_project\project\graphics\sceneobject\axisicon.cpp(1101): warning C4305: “参数”: 从“double”到“float”截断
+d:\workproject\dentalortho_project\project\graphics\sceneobject\axisicon.cpp(1102): warning C4305: “参数”: 从“double”到“GLfloat”截断
+d:\workproject\dentalortho_project\project\graphics\sceneobject\axisicon.cpp(1111): warning C4305: “=”: 从“double”到“GLfloat”截断
+d:\workproject\dentalortho_project\project\graphics\sceneobject\axisicon.cpp(1112): warning C4305: “=”: 从“double”到“GLfloat”截断
+d:\workproject\dentalortho_project\project\graphics\sceneobject\axisicon.cpp(1113): warning C4305: “=”: 从“double”到“GLfloat”截断
+d:\workproject\dentalortho_project\project\graphics\sceneobject\axisicon.cpp(1121): warning C4305: “参数”: 从“double”到“float”截断
+d:\workproject\dentalortho_project\project\graphics\sceneobject\axisicon.cpp(1123): warning C4305: “参数”: 从“double”到“float”截断
+d:\workproject\dentalortho_project\project\graphics\sceneobject\axisicon.cpp(1124): warning C4305: “参数”: 从“double”到“GLfloat”截断
+  TrackMode.cpp
+  TrackBall.cpp
+  SparseMat.cpp
+d:\workproject\dentalortho_project\project\graphics\math\sparsemat.cpp(145): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+  PCA.cpp
+d:\workproject\dentalortho_project\project\graphics\math\pca.cpp(9): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  MatrixEigen.cpp
+  UniformGrid.cpp
+d:\workproject\dentalortho_project\project\graphics\geometry\uniformgrid.cpp(46): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\geometry\uniformgrid.cpp(47): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\geometry\uniformgrid.cpp(48): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+  SpatialSubdivision.cpp
+  SpaceGrid.cpp
+  SpaceBox.cpp
+d:\workproject\dentalortho_project\project\graphics\geometry\spacebox.cpp(49): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  KDTree2.cpp
+d:\workproject\dentalortho_project\project\graphics\geometry\kdtree2.cpp(261): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\geometry\kdtree2.cpp(285): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  Curvature.cpp
+d:\workproject\dentalortho_project\project\graphics\geometry\curvature.cpp(252): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\geometry\curvature.cpp(252): warning C4244: “-=”: 从“double”转换到“float”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\geometry\curvature.cpp(264): warning C4244: “-=”: 从“double”转换到“float”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\geometry\curvature.cpp(268): warning C4244: “-=”: 从“double”转换到“float”，可能丢失数据
+  RangeData.cpp
+d:\workproject\dentalortho_project\project\graphics\geodata\rangedata.cpp(376): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  PointsData.cpp
+  MeshData.cpp
+d:\workproject\dentalortho_project\project\graphics\geodata\meshdata.cpp(56): warning C4018: “<”: 有符号/无符号不匹配
+d:\workproject\dentalortho_project\project\graphics\geodata\meshdata.cpp(68): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\geodata\meshdata.cpp(73): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\geodata\meshdata.cpp(158): warning C4244: “参数”: 从“const double”转换到“const float”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\geodata\meshdata.cpp(407): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\geodata\meshdata.cpp(409): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\geodata\meshdata.cpp(416): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\geodata\meshdata.cpp(426): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\geodata\meshdata.cpp(443): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\geodata\meshdata.cpp(445): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\geodata\meshdata.cpp(452): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\geodata\meshdata.cpp(462): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\geodata\meshdata.cpp(578): warning C4018: “<”: 有符号/无符号不匹配
+d:\workproject\dentalortho_project\project\graphics\geodata\meshdata.cpp(585): warning C4018: “<”: 有符号/无符号不匹配
+d:\workproject\dentalortho_project\project\graphics\geodata\meshdata.cpp(598): warning C4018: “<”: 有符号/无符号不匹配
+d:\workproject\dentalortho_project\project\graphics\geodata\meshdata.cpp(622): warning C4018: “<”: 有符号/无符号不匹配
+d:\workproject\dentalortho_project\project\graphics\geodata\meshdata.cpp(630): warning C4018: “<”: 有符号/无符号不匹配
+d:\workproject\dentalortho_project\project\graphics\geodata\meshdata.cpp(680): warning C4018: “<”: 有符号/无符号不匹配
+d:\workproject\dentalortho_project\project\graphics\geodata\meshdata.cpp(702): warning C4018: “<”: 有符号/无符号不匹配
+d:\workproject\dentalortho_project\project\graphics\geodata\meshdata.cpp(926): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\geodata\meshdata.cpp(959): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\geodata\meshdata.cpp(977): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\geodata\meshdata.cpp(1003): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\geodata\meshdata.cpp(1004): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\geodata\meshdata.cpp(1005): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\geodata\meshdata.cpp(1016): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\geodata\meshdata.cpp(1103): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+  MeshTopology.cpp
+  MeshGrid.cpp
+d:\workproject\dentalortho_project\project\graphics\geodata\meshgrid.cpp(8): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\geodata\meshgrid.cpp(45): warning C4101: “count”: 未引用的局部变量
+d:\workproject\dentalortho_project\project\graphics\geodata\meshgrid.cpp(318): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\geodata\meshgrid.cpp(752): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\geodata\meshgrid.cpp(809): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\geodata\meshgrid.cpp(835): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\geodata\meshgrid.cpp(1425): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\geodata\meshgrid.cpp(1473): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\geodata\meshgrid.cpp(1493): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+  正在生成代码...
+  正在编译...
+  STLWriter.cpp
+d:\workproject\dentalortho_project\project\graphics\fileformat\stl\stlwriter.cpp(21): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\fileformat\stl\stlwriter.cpp(77): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  ImporterStl.cpp
+  sn3DIOManager.cpp
+  plylib.cpp
+d:\workproject\dentalortho_project\project\graphics\fileformat\ply\plylib.cpp(146): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\fileformat\ply\plylib.cpp(156): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\fileformat\ply\plylib.cpp(175): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\fileformat\ply\plylib.cpp(193): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\fileformat\ply\plylib.cpp(203): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\fileformat\ply\plylib.cpp(222): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\fileformat\ply\plylib.cpp(241): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\fileformat\ply\plylib.cpp(259): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\fileformat\ply\plylib.cpp(438): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  ImporterPly.cpp
+d:\workproject\dentalortho_project\project\graphics\fileformat\ply\importerply.cpp(208): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\fileformat\ply\importerply.cpp(209): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\fileformat\ply\importerply.cpp(210): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  OBJWriter.cpp
+d:\workproject\dentalortho_project\project\graphics\fileformat\obj\objwriter.cpp(30): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\fileformat\obj\objwriter.cpp(36): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\fileformat\obj\objwriter.cpp(42): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\fileformat\obj\objwriter.cpp(51): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  ImporterObj.cpp
+d:\workproject\dentalortho_project\project\graphics\fileformat\obj\importerobj.cpp(214): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\fileformat\obj\importerobj.cpp(265): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\fileformat\obj\importerobj.cpp(270): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\fileformat\obj\importerobj.cpp(289): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\fileformat\obj\importerobj.cpp(299): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+d:\workproject\dentalortho_project\project\graphics\fileformat\obj\importerobj.cpp(178): warning C4477: “fscanf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“const char *”
+d:\workproject\dentalortho_project\project\graphics\fileformat\obj\importerobj.cpp(184): warning C4477: “fscanf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“const char *”
+d:\workproject\dentalortho_project\project\graphics\fileformat\obj\importerobj.cpp(238): warning C4477: “sscanf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“const char *”
+  MeshIOFilter.cpp
+  BaseWriter.cpp
+  BaseReader.cpp
+  ImporterAsc.cpp
+d:\workproject\dentalortho_project\project\graphics\fileformat\asc\importerasc.cpp(33): warning C4101: “index”: 未引用的局部变量
+  ASCWriter.cpp
+  正在生成代码...
+SceneGeometryObj.obj : warning LNK4221: 此对象文件未定义任何之前未定义的公共符号，因此任何耗用此库的链接操作都不会使用此文件
+  Graphics.vcxproj -> D:\WorkProject\dentalortho_project\project\Graphics\..\..\lib\x64\Graphicsd.lib

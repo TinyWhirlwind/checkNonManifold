@@ -1,0 +1,713 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DRelease_DebuggingNoCGAL|Win32">
+      <Configuration>DRelease_DebuggingNoCGAL</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DRelease_DebuggingNoCGAL|x64">
+      <Configuration>DRelease_DebuggingNoCGAL</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release_debugging|Win32">
+      <Configuration>Release_debugging</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release_debugging|x64">
+      <Configuration>Release_debugging</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{6EC5576F-D7A7-4FB6-A790-B9271FDBFAE9}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Graphics</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_debugging|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DRelease_DebuggingNoCGAL|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_debugging|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DRelease_DebuggingNoCGAL|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release_debugging|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DRelease_DebuggingNoCGAL|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release_debugging|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DRelease_DebuggingNoCGAL|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>..\..\lib\$(Platform)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_debugging|x64'">
+    <OutDir>..\..\lib\$(Platform)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DRelease_DebuggingNoCGAL|x64'">
+    <OutDir>..\..\lib\$(Platform)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>..\lib\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_debugging|Win32'">
+    <OutDir>..\lib\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DRelease_DebuggingNoCGAL|Win32'">
+    <OutDir>..\lib\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>..\..\lib\$(Platform)\</OutDir>
+    <TargetName>$(ProjectName)d</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../h/;../;../Graphics/;</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_XKEYCHECK_H;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>./;../;../Graphics/;../BasicAlgorithm/include;../BasicConfig/include;../NormalSplit/include;../../../dentalortho_lib/Qt/include;../../../dentalortho_lib/Qt/include/QtCore;../../../dentalortho_lib/Qt/include/QtGui;../../../dentalortho_lib/Qt/include/QtWidgets;../../../dentalortho_lib/Qt/include/QtOpenGL;../../../dentalortho_lib/include;../../../dentalortho_lib/basic/include/</AdditionalIncludeDirectories>
+      <ProgramDataBaseFileName>$(IntDir)$(ProjectName)d.pdb</ProgramDataBaseFileName>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>./;../;../Graphics/;../BasicAlgorithm/include;../BasicConfig/include;../NormalSplit/include;../../../dentalortho_lib/Qt/include/QtCore;../../../dentalortho_lib/Qt/include/QtGui;../../../dentalortho_lib/Qt/include/QtWidgets;../../../dentalortho_lib/Qt/include/QtOpenGL;../../../dentalortho_lib/include;../../../dentalortho_lib/basic/include/</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Lib>
+      <AdditionalLibraryDirectories>../lib/gl/;</AdditionalLibraryDirectories>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release_debugging|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>./;../;../Graphics/;../BasicAlgorithm/include;../BasicConfig/include;../NormalSplit/include;../../../dentalortho_lib/Qt/include/QtCore;../../../dentalortho_lib/Qt/include/QtGui;../../../dentalortho_lib/Qt/include/QtWidgets;../../../dentalortho_lib/Qt/include/QtOpenGL;../../../dentalortho_lib/include;../../../dentalortho_lib/basic/include/</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Lib>
+      <AdditionalLibraryDirectories>../lib/gl/;</AdditionalLibraryDirectories>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DRelease_DebuggingNoCGAL|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>./;../;../Graphics/;../BasicAlgorithm/include;../BasicConfig/include;../NormalSplit/include;../../../dentalortho_lib/Qt/include/QtCore;../../../dentalortho_lib/Qt/include/QtGui;../../../dentalortho_lib/Qt/include/QtWidgets;../../../dentalortho_lib/Qt/include/QtOpenGL;../../../dentalortho_lib/include;../../../dentalortho_lib/basic/include/</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Lib>
+      <AdditionalLibraryDirectories>../lib/gl/;</AdditionalLibraryDirectories>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level2</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_XKEYCHECK_H;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>./;../BasicAlgorithm/include;../BasicConfig/include;../../../dentalortho_lib/Qt/include;../../../dentalortho_lib/Qt/include/QtCore;../../../dentalortho_lib/Qt/include/QtGui;../../../dentalortho_lib/Qt/include/QtWidgets;../../../dentalortho_lib/Qt/include/QtOpenGL;../../../dentalortho_lib/include;../../../dentalortho_lib/basic/include/</AdditionalIncludeDirectories>
+      <DebugInformationFormat>None</DebugInformationFormat>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <FloatingPointModel>Precise</FloatingPointModel>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Lib>
+      <AdditionalLibraryDirectories>../../../dentalortho_lib/Qt/lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>
+      </AdditionalDependencies>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release_debugging|x64'">
+    <ClCompile>
+      <WarningLevel>Level2</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>Disabled</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_XKEYCHECK_H;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>./;../BasicAlgorithm/include;../BasicConfig/include;../../../dentalortho_lib/Qt/include;../../../dentalortho_lib/Qt/include/QtCore;../../../dentalortho_lib/Qt/include/QtGui;../../../dentalortho_lib/Qt/include/QtWidgets;../../../dentalortho_lib/Qt/include/QtOpenGL;../../../dentalortho_lib/include;../../../dentalortho_lib/basic/include/</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Lib>
+      <AdditionalLibraryDirectories>../../../dentalortho_lib/Qt/lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>
+      </AdditionalDependencies>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DRelease_DebuggingNoCGAL|x64'">
+    <ClCompile>
+      <WarningLevel>Level2</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>Disabled</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_XKEYCHECK_H;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>./;../BasicAlgorithm/include;../BasicConfig/include;../../../dentalortho_lib/Qt/include;../../../dentalortho_lib/Qt/include/QtCore;../../../dentalortho_lib/Qt/include/QtGui;../../../dentalortho_lib/Qt/include/QtWidgets;../../../dentalortho_lib/Qt/include/QtOpenGL;../../../dentalortho_lib/include;../../../dentalortho_lib/basic/include/</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Lib>
+      <AdditionalLibraryDirectories>../../../dentalortho_lib/Qt/lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>
+      </AdditionalDependencies>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Common\algebra5.h" />
+    <ClInclude Include="Common\base.h" />
+    <ClInclude Include="Common\box2.h" />
+    <ClInclude Include="Common\box3.h" />
+    <ClInclude Include="Common\color4.h" />
+    <ClInclude Include="Common\gen_normal.h" />
+    <ClInclude Include="Common\histogram.h" />
+    <ClInclude Include="Common\intersection3.h" />
+    <ClInclude Include="Common\line3.h" />
+    <ClInclude Include="Common\lin_algebra.h" />
+    <ClInclude Include="Common\math.h" />
+    <ClInclude Include="Common\matrix.h" />
+    <ClInclude Include="Common\matrix33.h" />
+    <ClInclude Include="Common\matrix44.h" />
+    <ClInclude Include="Common\MatrixData.h" />
+    <ClInclude Include="Common\Median.h" />
+    <ClInclude Include="Common\perlin_noise.h" />
+    <ClInclude Include="Common\plane3.h" />
+    <ClInclude Include="Common\point2.h" />
+    <ClInclude Include="Common\point3.h" />
+    <ClInclude Include="Common\point4.h" />
+    <ClInclude Include="Common\point_matching.h" />
+    <ClInclude Include="Common\quadric.h" />
+    <ClInclude Include="Common\quadric5.h" />
+    <ClInclude Include="Common\quaternion.h" />
+    <ClInclude Include="Common\Random.h" />
+    <ClInclude Include="Common\random_generator.h" />
+    <ClInclude Include="Common\ray3.h" />
+    <ClInclude Include="Common\segment3.h" />
+    <ClInclude Include="Common\similarity.h" />
+    <ClInclude Include="Common\space1.h" />
+    <ClInclude Include="Common\SpatialIndex.h" />
+    <ClInclude Include="Common\sphere3.h" />
+    <ClInclude Include="Common\triangle3.h" />
+    <ClInclude Include="Common\triangle_triangle3.h" />
+    <ClInclude Include="FileFormat\BaseReader.h" />
+    <ClInclude Include="FileFormat\BaseWriter.h" />
+    <ClInclude Include="FileFormat\MeshExporter.h" />
+    <ClInclude Include="FileFormat\MeshImporter.h" />
+    <ClInclude Include="FileFormat\MeshIOFilter.h" />
+    <ClInclude Include="FileFormat\ply\Exporterply.h" />
+    <ClInclude Include="FileFormat\ply\importerply.h" />
+    <ClInclude Include="FileFormat\ply\io_mask.h" />
+    <ClInclude Include="FileFormat\ply\io_ply.h" />
+    <ClInclude Include="FileFormat\ply\plylib.h" />
+    <ClInclude Include="FileFormat\PointsExporter.h" />
+    <ClInclude Include="FileFormat\PointsImporter.h" />
+    <ClInclude Include="FileFormat\sn3DIOManager.h" />
+    <ClInclude Include="GeoData\FaceNormal.h" />
+    <ClInclude Include="GeoData\GeometryData.h" />
+    <ClInclude Include="GeoData\MeshData.h" />
+    <ClInclude Include="GeoData\MeshGrid.h" />
+    <ClInclude Include="GeoData\MeshTopology.h" />
+    <ClInclude Include="GeoData\PointsData.h" />
+    <ClInclude Include="GeoData\RangeData.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_debugging|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DRelease_DebuggingNoCGAL|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_debugging|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DRelease_DebuggingNoCGAL|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="Geometry\Curvature.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_debugging|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DRelease_DebuggingNoCGAL|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_debugging|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DRelease_DebuggingNoCGAL|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="Geometry\KDTree2.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_debugging|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DRelease_DebuggingNoCGAL|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_debugging|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DRelease_DebuggingNoCGAL|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="Geometry\SpaceBox.h" />
+    <ClInclude Include="Geometry\SpaceGrid.h" />
+    <ClInclude Include="Geometry\SpatialSubdivision.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_debugging|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DRelease_DebuggingNoCGAL|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_debugging|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DRelease_DebuggingNoCGAL|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="Geometry\UniformGrid.h" />
+    <ClInclude Include="Math\MatrixEigen.h" />
+    <ClInclude Include="Math\PCA.h" />
+    <ClInclude Include="Math\SparseMat.h" />
+    <ClInclude Include="SceneInteract\Navigation\TrackBall.h" />
+    <ClInclude Include="SceneInteract\Navigation\trackmode.h" />
+    <ClInclude Include="SceneInteract\Navigation\TrackRecorder.h" />
+    <ClInclude Include="SceneInteract\Navigation\TrackUtils.h" />
+    <ClInclude Include="SceneObject\AxisIcon.h" />
+    <ClInclude Include="SceneObject\ColorBar.h" />
+    <ClInclude Include="SceneObject\ObjectMotion.h" />
+    <ClInclude Include="SceneObject\SceneCircleObj.h" />
+    <ClInclude Include="SceneObject\SceneColorMeshObj.h" />
+    <ClInclude Include="SceneObject\SceneCoordSystemObj.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_debugging|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DRelease_DebuggingNoCGAL|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_debugging|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DRelease_DebuggingNoCGAL|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="SceneObject\glShape.h" />
+    <ClInclude Include="SceneObject\InfoBar.h" />
+    <ClInclude Include="SceneObject\SceneCurveObj.h" />
+    <ClInclude Include="SceneObject\SceneGeometryObj.h" />
+    <ClInclude Include="SceneObject\SceneLineObj.h" />
+    <ClInclude Include="SceneObject\SceneMeshObj.h" />
+    <ClInclude Include="SceneObject\SceneObject.h" />
+    <ClInclude Include="SceneObject\ScenePointsObj.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_debugging|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DRelease_DebuggingNoCGAL|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="SceneObject\glPrimitive.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_debugging|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DRelease_DebuggingNoCGAL|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_debugging|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DRelease_DebuggingNoCGAL|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="SceneObject\SceneRangeObj.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_debugging|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DRelease_DebuggingNoCGAL|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_debugging|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DRelease_DebuggingNoCGAL|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="SceneObject\SceneSphereObj.h" />
+    <ClInclude Include="SceneObject\sn3DCircleRenderer.h" />
+    <ClInclude Include="SceneObject\sn3DCurveRenderer.h" />
+    <ClInclude Include="SceneObject\sn3DGeometryRenderer.h" />
+    <ClInclude Include="SceneObject\sn3DLineRenderer.h" />
+    <ClInclude Include="SceneObject\sn3DMeshRenderer.h" />
+    <ClInclude Include="SceneObject\sn3DNewMeshRender.h" />
+    <ClInclude Include="SceneObject\sn3DPointsRenderer.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_debugging|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DRelease_DebuggingNoCGAL|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="SceneObject\sn3DRangeRenderer.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_debugging|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DRelease_DebuggingNoCGAL|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_debugging|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DRelease_DebuggingNoCGAL|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="SceneObject\sn3DRenderer.h" />
+    <ClInclude Include="SceneObject\sn3DSphereRenderer.h" />
+    <ClInclude Include="SceneRender\Camera.h" />
+    <ClInclude Include="SceneRender\CrystalShader.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_debugging|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DRelease_DebuggingNoCGAL|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="SceneRender\GLDrawFont.h" />
+    <ClInclude Include="SceneRender\GLSLProgramObject.h" />
+    <ClInclude Include="SceneRender\GreyShader.h" />
+    <ClInclude Include="SceneRender\InteractorGL3D.h" />
+    <ClInclude Include="SceneRender\InteratorResult.h" />
+    <ClInclude Include="SceneRender\LightColorGL.h" />
+    <ClInclude Include="SceneRender\NormalColorShader.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_debugging|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DRelease_DebuggingNoCGAL|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_debugging|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DRelease_DebuggingNoCGAL|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="SceneRender\OpenGLDevice.h" />
+    <ClInclude Include="SceneRender\PhongShader.h" />
+    <ClInclude Include="SceneRender\SceneBaseObject.h" />
+    <ClInclude Include="SceneRender\SceneGL.h" />
+    <ClInclude Include="SceneRender\SceneGL2D.h" />
+    <ClInclude Include="SceneRender\SceneGL3D.h" />
+    <ClInclude Include="SceneRender\Shader.h" />
+    <ClInclude Include="SceneRender\SplineShader.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_debugging|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DRelease_DebuggingNoCGAL|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_debugging|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DRelease_DebuggingNoCGAL|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="SceneRender\TextureGL.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FileFormat\asc\ASCWriter.cpp" />
+    <ClCompile Include="FileFormat\asc\ImporterAsc.cpp" />
+    <ClCompile Include="FileFormat\BaseReader.cpp" />
+    <ClCompile Include="FileFormat\BaseWriter.cpp" />
+    <ClCompile Include="FileFormat\MeshIOFilter.cpp" />
+    <ClCompile Include="FileFormat\obj\ImporterObj.cpp" />
+    <ClCompile Include="FileFormat\obj\OBJWriter.cpp" />
+    <ClCompile Include="FileFormat\ply\ImporterPly.cpp" />
+    <ClCompile Include="FileFormat\ply\plylib.cpp" />
+    <ClCompile Include="FileFormat\sn3DIOManager.cpp" />
+    <ClCompile Include="FileFormat\stl\ImporterStl.cpp" />
+    <ClCompile Include="FileFormat\stl\STLWriter.cpp" />
+    <ClCompile Include="GeoData\MeshGrid.cpp" />
+    <ClCompile Include="GeoData\MeshTopology.cpp" />
+    <ClCompile Include="GeoData\MeshData.cpp" />
+    <ClCompile Include="GeoData\PointsData.cpp" />
+    <ClCompile Include="GeoData\RangeData.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_debugging|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DRelease_DebuggingNoCGAL|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_debugging|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DRelease_DebuggingNoCGAL|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Geometry\Curvature.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_debugging|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DRelease_DebuggingNoCGAL|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_debugging|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DRelease_DebuggingNoCGAL|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Geometry\KDTree2.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_debugging|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DRelease_DebuggingNoCGAL|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_debugging|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DRelease_DebuggingNoCGAL|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Geometry\SpaceBox.cpp" />
+    <ClCompile Include="Geometry\SpaceGrid.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_debugging|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DRelease_DebuggingNoCGAL|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_debugging|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DRelease_DebuggingNoCGAL|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Geometry\SpatialSubdivision.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_debugging|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DRelease_DebuggingNoCGAL|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_debugging|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DRelease_DebuggingNoCGAL|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Geometry\UniformGrid.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_debugging|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DRelease_DebuggingNoCGAL|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_debugging|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DRelease_DebuggingNoCGAL|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Math\MatrixEigen.cpp" />
+    <ClCompile Include="Math\PCA.cpp" />
+    <ClCompile Include="Math\SparseMat.cpp" />
+    <ClCompile Include="SceneInteract\Navigation\TrackBall.cpp" />
+    <ClCompile Include="SceneInteract\Navigation\TrackMode.cpp" />
+    <ClCompile Include="SceneObject\AxisIcon.cpp" />
+    <ClCompile Include="SceneObject\ColorBar.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_debugging|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DRelease_DebuggingNoCGAL|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_debugging|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DRelease_DebuggingNoCGAL|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="SceneObject\ObjectMotion.cpp" />
+    <ClCompile Include="SceneObject\SceneCircleObj.cpp" />
+    <ClCompile Include="SceneObject\SceneColorMeshObj.cpp" />
+    <ClCompile Include="SceneObject\SceneCoordSystemObj.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_debugging|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DRelease_DebuggingNoCGAL|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_debugging|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DRelease_DebuggingNoCGAL|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="SceneObject\glShape.cpp" />
+    <ClCompile Include="SceneObject\InfoBar.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_debugging|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DRelease_DebuggingNoCGAL|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_debugging|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DRelease_DebuggingNoCGAL|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="SceneObject\SceneCurveObj.cpp" />
+    <ClCompile Include="SceneObject\SceneGeometryObj.cpp" />
+    <ClCompile Include="SceneObject\SceneLineObj.cpp" />
+    <ClCompile Include="SceneObject\SceneMeshObj.cpp" />
+    <ClCompile Include="SceneObject\SceneObject.cpp" />
+    <ClCompile Include="SceneObject\ScenePointsObj.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_debugging|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DRelease_DebuggingNoCGAL|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="SceneObject\glPrimitive.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_debugging|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DRelease_DebuggingNoCGAL|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_debugging|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DRelease_DebuggingNoCGAL|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="SceneObject\SceneRangeObj.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_debugging|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DRelease_DebuggingNoCGAL|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_debugging|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DRelease_DebuggingNoCGAL|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="SceneObject\SceneSphereObj.cpp" />
+    <ClCompile Include="SceneObject\sn3DCircleRenderer.cpp" />
+    <ClCompile Include="SceneObject\sn3DCurveRenderer.cpp" />
+    <ClCompile Include="SceneObject\sn3DGeometryRenderer.cpp" />
+    <ClCompile Include="SceneObject\sn3DLineRenderer.cpp" />
+    <ClCompile Include="SceneObject\sn3DMeshRenderer.cpp" />
+    <ClCompile Include="SceneObject\sn3DNewMeshRender.cpp" />
+    <ClCompile Include="SceneObject\sn3DPointsRenderer.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_debugging|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DRelease_DebuggingNoCGAL|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="SceneObject\sn3DRangeRenderer.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_debugging|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DRelease_DebuggingNoCGAL|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_debugging|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DRelease_DebuggingNoCGAL|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="SceneObject\sn3DRenderer.cpp" />
+    <ClCompile Include="SceneObject\sn3DSphereRenderer.cpp" />
+    <ClCompile Include="SceneRender\Camera.cpp" />
+    <ClCompile Include="SceneRender\CrystalShader.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_debugging|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DRelease_DebuggingNoCGAL|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="SceneRender\GLDrawFont.cpp" />
+    <ClCompile Include="SceneRender\GLSLProgramObject.cpp" />
+    <ClCompile Include="SceneRender\GreyShader.cpp" />
+    <ClCompile Include="SceneRender\InteractorGL3D.cpp" />
+    <ClCompile Include="SceneRender\LightColorGL.cpp" />
+    <ClCompile Include="SceneRender\NormalColorShader.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_debugging|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DRelease_DebuggingNoCGAL|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_debugging|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DRelease_DebuggingNoCGAL|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="SceneRender\OpenGLDevice.cpp" />
+    <ClCompile Include="SceneRender\PhongShader.cpp" />
+    <ClCompile Include="SceneRender\SceneBaseObject.cpp" />
+    <ClCompile Include="SceneRender\SceneGL.cpp" />
+    <ClCompile Include="SceneRender\SceneGL2D.cpp" />
+    <ClCompile Include="SceneRender\SceneGL3D.cpp" />
+    <ClCompile Include="SceneRender\Shader.cpp" />
+    <ClCompile Include="SceneRender\SplineShader.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_debugging|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DRelease_DebuggingNoCGAL|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_debugging|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DRelease_DebuggingNoCGAL|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="SceneRender\TextureGL.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_debugging|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='DRelease_DebuggingNoCGAL|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_debugging|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='DRelease_DebuggingNoCGAL|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

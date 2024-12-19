@@ -1,0 +1,160 @@
+﻿  MeshData.cpp
+D:\Myproject\checkNonManifold\checkNonManifold\basic\GeoData\MeshData.cpp(56,27): warning C4018: “<”: 有符号/无符号不匹配
+D:\Myproject\checkNonManifold\checkNonManifold\basic\GeoData\MeshData.cpp(68,31): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+D:\Myproject\checkNonManifold\checkNonManifold\basic\GeoData\MeshData.cpp(73,28): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+D:\Myproject\checkNonManifold\checkNonManifold\basic\GeoData\MeshData.cpp(158,58): warning C4244: “参数”: 从“const P3ScalarType”转换到“const P3ScalarType”，可能丢失数据
+D:\Myproject\checkNonManifold\checkNonManifold\basic\GeoData\MeshData.cpp(158,58): warning C4244:         with
+D:\Myproject\checkNonManifold\checkNonManifold\basic\GeoData\MeshData.cpp(158,58): warning C4244:         [
+D:\Myproject\checkNonManifold\checkNonManifold\basic\GeoData\MeshData.cpp(158,58): warning C4244:             P3ScalarType=double
+D:\Myproject\checkNonManifold\checkNonManifold\basic\GeoData\MeshData.cpp(158,58): warning C4244:         ]
+D:\Myproject\checkNonManifold\checkNonManifold\basic\GeoData\MeshData.cpp(158,58): warning C4244:         and
+D:\Myproject\checkNonManifold\checkNonManifold\basic\GeoData\MeshData.cpp(158,58): warning C4244:         [
+D:\Myproject\checkNonManifold\checkNonManifold\basic\GeoData\MeshData.cpp(158,58): warning C4244:             P3ScalarType=float
+D:\Myproject\checkNonManifold\checkNonManifold\basic\GeoData\MeshData.cpp(158,58): warning C4244:         ]
+D:\Myproject\checkNonManifold\checkNonManifold\basic\GeoData\MeshData.cpp(158,48): warning C4244: “参数”: 从“const P3ScalarType”转换到“const P3ScalarType”，可能丢失数据
+D:\Myproject\checkNonManifold\checkNonManifold\basic\GeoData\MeshData.cpp(158,48): warning C4244:         with
+D:\Myproject\checkNonManifold\checkNonManifold\basic\GeoData\MeshData.cpp(158,48): warning C4244:         [
+D:\Myproject\checkNonManifold\checkNonManifold\basic\GeoData\MeshData.cpp(158,48): warning C4244:             P3ScalarType=double
+D:\Myproject\checkNonManifold\checkNonManifold\basic\GeoData\MeshData.cpp(158,48): warning C4244:         ]
+D:\Myproject\checkNonManifold\checkNonManifold\basic\GeoData\MeshData.cpp(158,48): warning C4244:         and
+D:\Myproject\checkNonManifold\checkNonManifold\basic\GeoData\MeshData.cpp(158,48): warning C4244:         [
+D:\Myproject\checkNonManifold\checkNonManifold\basic\GeoData\MeshData.cpp(158,48): warning C4244:             P3ScalarType=float
+D:\Myproject\checkNonManifold\checkNonManifold\basic\GeoData\MeshData.cpp(158,48): warning C4244:         ]
+D:\Myproject\checkNonManifold\checkNonManifold\basic\GeoData\MeshData.cpp(158,38): warning C4244: “参数”: 从“const P3ScalarType”转换到“const P3ScalarType”，可能丢失数据
+D:\Myproject\checkNonManifold\checkNonManifold\basic\GeoData\MeshData.cpp(158,38): warning C4244:         with
+D:\Myproject\checkNonManifold\checkNonManifold\basic\GeoData\MeshData.cpp(158,38): warning C4244:         [
+D:\Myproject\checkNonManifold\checkNonManifold\basic\GeoData\MeshData.cpp(158,38): warning C4244:             P3ScalarType=double
+D:\Myproject\checkNonManifold\checkNonManifold\basic\GeoData\MeshData.cpp(158,38): warning C4244:         ]
+D:\Myproject\checkNonManifold\checkNonManifold\basic\GeoData\MeshData.cpp(158,38): warning C4244:         and
+D:\Myproject\checkNonManifold\checkNonManifold\basic\GeoData\MeshData.cpp(158,38): warning C4244:         [
+D:\Myproject\checkNonManifold\checkNonManifold\basic\GeoData\MeshData.cpp(158,38): warning C4244:             P3ScalarType=float
+D:\Myproject\checkNonManifold\checkNonManifold\basic\GeoData\MeshData.cpp(158,38): warning C4244:         ]
+D:\Myproject\checkNonManifold\checkNonManifold\basic\GeoData\MeshData.cpp(407,36): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+D:\Myproject\checkNonManifold\checkNonManifold\basic\GeoData\MeshData.cpp(409,33): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+D:\Myproject\checkNonManifold\checkNonManifold\basic\GeoData\MeshData.cpp(416,30): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+D:\Myproject\checkNonManifold\checkNonManifold\basic\GeoData\MeshData.cpp(426,27): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+D:\Myproject\checkNonManifold\checkNonManifold\basic\GeoData\MeshData.cpp(443,36): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+D:\Myproject\checkNonManifold\checkNonManifold\basic\GeoData\MeshData.cpp(445,33): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+D:\Myproject\checkNonManifold\checkNonManifold\basic\GeoData\MeshData.cpp(452,30): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+D:\Myproject\checkNonManifold\checkNonManifold\basic\GeoData\MeshData.cpp(462,27): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+D:\Myproject\checkNonManifold\checkNonManifold\basic\GeoData\MeshData.cpp(578,27): warning C4018: “<”: 有符号/无符号不匹配
+D:\Myproject\checkNonManifold\checkNonManifold\basic\GeoData\MeshData.cpp(585,27): warning C4018: “<”: 有符号/无符号不匹配
+D:\Myproject\checkNonManifold\checkNonManifold\basic\GeoData\MeshData.cpp(598,27): warning C4018: “<”: 有符号/无符号不匹配
+D:\Myproject\checkNonManifold\checkNonManifold\basic\GeoData\MeshData.cpp(622,27): warning C4018: “<”: 有符号/无符号不匹配
+D:\Myproject\checkNonManifold\checkNonManifold\basic\GeoData\MeshData.cpp(630,27): warning C4018: “<”: 有符号/无符号不匹配
+D:\Myproject\checkNonManifold\checkNonManifold\basic\GeoData\MeshData.cpp(680,27): warning C4018: “<”: 有符号/无符号不匹配
+D:\Myproject\checkNonManifold\checkNonManifold\basic\GeoData\MeshData.cpp(702,27): warning C4018: “<”: 有符号/无符号不匹配
+D:\Myproject\checkNonManifold\checkNonManifold\basic\GeoData\MeshData.cpp(926,20): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+D:\Myproject\checkNonManifold\checkNonManifold\basic\GeoData\MeshData.cpp(959,34): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\Myproject\checkNonManifold\checkNonManifold\basic\GeoData\MeshData.cpp(977,34): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\Myproject\checkNonManifold\checkNonManifold\basic\GeoData\MeshData.cpp(1003,37): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\Myproject\checkNonManifold\checkNonManifold\basic\GeoData\MeshData.cpp(1004,37): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\Myproject\checkNonManifold\checkNonManifold\basic\GeoData\MeshData.cpp(1005,37): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\Myproject\checkNonManifold\checkNonManifold\basic\GeoData\MeshData.cpp(1016,33): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\Myproject\checkNonManifold\checkNonManifold\basic\GeoData\MeshData.cpp(1103,49): warning C4244: “参数”: 从“double”转换到“const P3ScalarType”，可能丢失数据
+D:\Myproject\checkNonManifold\checkNonManifold\basic\GeoData\MeshData.cpp(1103,49): warning C4244:         with
+D:\Myproject\checkNonManifold\checkNonManifold\basic\GeoData\MeshData.cpp(1103,49): warning C4244:         [
+D:\Myproject\checkNonManifold\checkNonManifold\basic\GeoData\MeshData.cpp(1103,49): warning C4244:             P3ScalarType=float
+D:\Myproject\checkNonManifold\checkNonManifold\basic\GeoData\MeshData.cpp(1103,49): warning C4244:         ]
+D:\Myproject\checkNonManifold\checkNonManifold\basic\GeoData\MeshData.cpp(1103,45): warning C4244: “参数”: 从“double”转换到“const P3ScalarType”，可能丢失数据
+D:\Myproject\checkNonManifold\checkNonManifold\basic\GeoData\MeshData.cpp(1103,45): warning C4244:         with
+D:\Myproject\checkNonManifold\checkNonManifold\basic\GeoData\MeshData.cpp(1103,45): warning C4244:         [
+D:\Myproject\checkNonManifold\checkNonManifold\basic\GeoData\MeshData.cpp(1103,45): warning C4244:             P3ScalarType=float
+D:\Myproject\checkNonManifold\checkNonManifold\basic\GeoData\MeshData.cpp(1103,45): warning C4244:         ]
+D:\Myproject\checkNonManifold\checkNonManifold\basic\GeoData\MeshData.cpp(1103,41): warning C4244: “参数”: 从“double”转换到“const P3ScalarType”，可能丢失数据
+D:\Myproject\checkNonManifold\checkNonManifold\basic\GeoData\MeshData.cpp(1103,41): warning C4244:         with
+D:\Myproject\checkNonManifold\checkNonManifold\basic\GeoData\MeshData.cpp(1103,41): warning C4244:         [
+D:\Myproject\checkNonManifold\checkNonManifold\basic\GeoData\MeshData.cpp(1103,41): warning C4244:             P3ScalarType=float
+D:\Myproject\checkNonManifold\checkNonManifold\basic\GeoData\MeshData.cpp(1103,41): warning C4244:         ]
+D:\Myproject\checkNonManifold\checkNonManifold\basic\Common\Point3.h(230,18): warning C4244: “初始化”: 从“double”转换到“P3ScalarType”，可能丢失数据
+D:\Myproject\checkNonManifold\checkNonManifold\basic\Common\Point3.h(230,18): warning C4244:         with
+D:\Myproject\checkNonManifold\checkNonManifold\basic\Common\Point3.h(230,18): warning C4244:         [
+D:\Myproject\checkNonManifold\checkNonManifold\basic\Common\Point3.h(230,18): warning C4244:             P3ScalarType=float
+D:\Myproject\checkNonManifold\checkNonManifold\basic\Common\Point3.h(230,18): warning C4244:         ]
+  (编译源文件“basic/GeoData/MeshData.cpp”)
+  D:\Myproject\checkNonManifold\checkNonManifold\basic\Common\Point3.h(230,18):
+  模板实例化上下文(最早的实例化上下文)为
+  	D:\Myproject\checkNonManifold\checkNonManifold\basic\Common\Color4.h(142,3):
+  	查看对正在编译的 类 模板 实例化“Point3<float>”的引用
+  	D:\Myproject\checkNonManifold\checkNonManifold\basic\Common\Point3.h(228,18):
+  	在编译 类 模板 成员函数“Point3<float> &Point3<float>::Normalize(void)”时
+  		D:\Myproject\checkNonManifold\checkNonManifold\basic\GeoData\MeshData.cpp(527,23):
+  		请参阅 "sn3DCore::sn3DMeshData::UpdateNormal" 中对 "Point3<float>::Normalize" 的第一个引用
+  
+D:\Myproject\checkNonManifold\checkNonManifold\basic\Common\Point3.h(204,14): warning C4244: “return”: 从“double”转换到“P3ScalarType”，可能丢失数据
+D:\Myproject\checkNonManifold\checkNonManifold\basic\Common\Point3.h(204,14): warning C4244:         with
+D:\Myproject\checkNonManifold\checkNonManifold\basic\Common\Point3.h(204,14): warning C4244:         [
+D:\Myproject\checkNonManifold\checkNonManifold\basic\Common\Point3.h(204,14): warning C4244:             P3ScalarType=float
+D:\Myproject\checkNonManifold\checkNonManifold\basic\Common\Point3.h(204,14): warning C4244:         ]
+  (编译源文件“basic/GeoData/MeshData.cpp”)
+  D:\Myproject\checkNonManifold\checkNonManifold\basic\Common\Point3.h(204,14):
+  模板实例化上下文(最早的实例化上下文)为
+  	D:\Myproject\checkNonManifold\checkNonManifold\basic\Common\Point3.h(202,22):
+  	在编译 类 模板 成员函数“P3ScalarType Point3<P3ScalarType>::Norm(void) const”时
+          with
+          [
+              P3ScalarType=float
+          ]
+  		D:\Myproject\checkNonManifold\checkNonManifold\basic\GeoData\MeshData.cpp(603,21):
+  		请参阅 "sn3DCore::sn3DMeshData::GetAvgEdgeLen" 中对 "Point3<float>::Norm" 的第一个引用
+  
+  MeshTopology.cpp
+  PointsData.cpp
+  SpaceBox.cpp
+D:\Myproject\checkNonManifold\checkNonManifold\basic\Geometry\SpaceBox.cpp(49,11): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  checkMesh.cpp
+D:\Myproject\checkNonManifold\checkNonManifold\checkMesh.h(33,27): warning C4251: “MeshCheck::impl_”: class“boost::shared_ptr<MeshCheck::PImpl>”需要有 dll 接口由 class“MeshCheck”的客户端使用 
+  (编译源文件“checkMesh.cpp”)
+  D:\Myproject\checkNonManifold\checkNonManifold\basic\boost\smart_ptr\shared_ptr.hpp(341,25):
+  参见“boost::shared_ptr<MeshCheck::PImpl>”的声明
+  
+D:\Myproject\checkNonManifold\checkNonManifold\checkMesh.cpp(49,12): warning C4273: “MeshCheck::MeshCheck”: dll 链接不一致
+  D:\Myproject\checkNonManifold\checkNonManifold\checkMesh.h(18,2):
+  参见“{ctor}”的前一个定义
+  
+D:\Myproject\checkNonManifold\checkNonManifold\checkMesh.cpp(54,12): warning C4273: “MeshCheck::MeshCheck”: dll 链接不一致
+  D:\Myproject\checkNonManifold\checkNonManifold\checkMesh.h(19,2):
+  参见“{ctor}”的前一个定义
+  
+D:\Myproject\checkNonManifold\checkNonManifold\checkMesh.cpp(59,13): warning C4273: “MeshCheck::~MeshCheck”: dll 链接不一致
+  D:\Myproject\checkNonManifold\checkNonManifold\checkMesh.h(20,3):
+  参见“{dtor}”的前一个定义
+  
+D:\Myproject\checkNonManifold\checkNonManifold\checkMesh.cpp(61,17): warning C4273: “MeshCheck::setMesh”: dll 链接不一致
+  D:\Myproject\checkNonManifold\checkNonManifold\checkMesh.h(23,7):
+  参见“setMesh”的前一个定义
+  
+D:\Myproject\checkNonManifold\checkNonManifold\checkMesh.cpp(66,54): warning C4273: “MeshCheck::getMesh”: dll 链接不一致
+  D:\Myproject\checkNonManifold\checkNonManifold\checkMesh.h(24,44):
+  参见“getMesh”的前一个定义
+  
+D:\Myproject\checkNonManifold\checkNonManifold\checkMesh.cpp(71,17): warning C4273: “MeshCheck::checkNonManifold”: dll 链接不一致
+  D:\Myproject\checkNonManifold\checkNonManifold\checkMesh.h(25,7):
+  参见“checkNonManifold”的前一个定义
+  
+D:\Myproject\checkNonManifold\checkNonManifold\checkMesh.cpp(88,17): warning C4273: “MeshCheck::removeNonManifold”: dll 链接不一致
+  D:\Myproject\checkNonManifold\checkNonManifold\checkMesh.h(26,7):
+  参见“removeNonManifold”的前一个定义
+  
+D:\Myproject\checkNonManifold\checkNonManifold\checkMesh.cpp(98,17): warning C4273: “MeshCheck::repairNonManifold”: dll 链接不一致
+  D:\Myproject\checkNonManifold\checkNonManifold\checkMesh.h(27,7):
+  参见“repairNonManifold”的前一个定义
+  
+D:\Myproject\checkNonManifold\checkNonManifold\checkMesh.cpp(110,17): warning C4273: “MeshCheck::removeDegenerateFaces”: dll 链接不一致
+  D:\Myproject\checkNonManifold\checkNonManifold\checkMesh.h(28,7):
+  参见“removeDegenerateFaces”的前一个定义
+  
+D:\Myproject\checkNonManifold\checkNonManifold\checkMesh.cpp(115,54): warning C4273: “MeshCheck::getMaxConnectedComponent”: dll 链接不一致
+  D:\Myproject\checkNonManifold\checkNonManifold\checkMesh.h(29,44):
+  参见“getMaxConnectedComponent”的前一个定义
+  
+D:\Myproject\checkNonManifold\checkNonManifold\checkMesh.cpp(125,15): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\Myproject\checkNonManifold\checkNonManifold\checkMesh.cpp(179,67): warning C4273: “MeshCheck::getAllConnectedComponent”: dll 链接不一致
+  D:\Myproject\checkNonManifold\checkNonManifold\checkMesh.h(30,57):
+  参见“getAllConnectedComponent”的前一个定义
+  
+D:\Myproject\checkNonManifold\checkNonManifold\checkMesh.cpp(526,18): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\Myproject\checkNonManifold\checkNonManifold\checkMesh.cpp(777,25): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  正在生成代码...
+    正在创建库 D:\Myproject\checkNonManifold\x64\Debug\checkNonManifoldd.lib 和对象 D:\Myproject\checkNonManifold\x64\Debug\checkNonManifoldd.exp
+  checkNonManifold.vcxproj -> D:\Myproject\checkNonManifold\x64\Debug\checkNonManifoldd.dll

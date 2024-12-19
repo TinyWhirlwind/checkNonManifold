@@ -1,0 +1,265 @@
+﻿  stdafx.cpp
+  ASCWriter.cpp
+  ImporterAsc.cpp
+  BaseReader.cpp
+  BaseWriter.cpp
+  MeshIOFilter.cpp
+  ImporterObj.cpp
+FileFormat\obj\ImporterObj.cpp(178): warning C4477: “fscanf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“const char *”
+FileFormat\obj\ImporterObj.cpp(184): warning C4477: “fscanf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“const char *”
+FileFormat\obj\ImporterObj.cpp(238): warning C4477: “sscanf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“const char *”
+  OBJWriter.cpp
+  ImporterPly.cpp
+  plylib.cpp
+  sn3DIOManager.cpp
+  ImporterStl.cpp
+  STLWriter.cpp
+  MeshGrid.cpp
+  MeshTopology.cpp
+  MeshData.cpp
+  PointsData.cpp
+  SpaceBox.cpp
+  MatrixEigen.cpp
+  PCA.cpp
+  SparseMat.cpp
+  正在编译...
+  TrackBall.cpp
+  TrackMode.cpp
+  AxisIcon.cpp
+SceneObject\AxisIcon.cpp(92): warning C4305: “=”: 从“double”到“float”截断
+SceneObject\AxisIcon.cpp(773): warning C4838: 从“double”转换到“float”需要收缩转换
+SceneObject\AxisIcon.cpp(773): warning C4305: “初始化”: 从“double”到“float”截断
+SceneObject\AxisIcon.cpp(809): warning C4305: “=”: 从“double”到“GLfloat”截断
+SceneObject\AxisIcon.cpp(810): warning C4305: “=”: 从“double”到“GLfloat”截断
+SceneObject\AxisIcon.cpp(811): warning C4305: “=”: 从“double”到“GLfloat”截断
+SceneObject\AxisIcon.cpp(822): warning C4305: “参数”: 从“double”到“GLfloat”截断
+SceneObject\AxisIcon.cpp(860): warning C4838: 从“double”转换到“float”需要收缩转换
+SceneObject\AxisIcon.cpp(860): warning C4305: “初始化”: 从“double”到“float”截断
+SceneObject\AxisIcon.cpp(877): warning C4305: “=”: 从“double”到“GLfloat”截断
+SceneObject\AxisIcon.cpp(878): warning C4305: “=”: 从“double”到“GLfloat”截断
+SceneObject\AxisIcon.cpp(879): warning C4305: “=”: 从“double”到“GLfloat”截断
+SceneObject\AxisIcon.cpp(891): warning C4305: “参数”: 从“double”到“GLfloat”截断
+SceneObject\AxisIcon.cpp(933): warning C4838: 从“double”转换到“float”需要收缩转换
+SceneObject\AxisIcon.cpp(933): warning C4305: “初始化”: 从“double”到“float”截断
+SceneObject\AxisIcon.cpp(954): warning C4305: “=”: 从“double”到“GLfloat”截断
+SceneObject\AxisIcon.cpp(955): warning C4305: “=”: 从“double”到“GLfloat”截断
+SceneObject\AxisIcon.cpp(956): warning C4305: “=”: 从“double”到“GLfloat”截断
+SceneObject\AxisIcon.cpp(967): warning C4305: “参数”: 从“double”到“GLfloat”截断
+SceneObject\AxisIcon.cpp(1057): warning C4305: “=”: 从“double”到“GLfloat”截断
+SceneObject\AxisIcon.cpp(1058): warning C4305: “=”: 从“double”到“GLfloat”截断
+SceneObject\AxisIcon.cpp(1059): warning C4305: “=”: 从“double”到“GLfloat”截断
+SceneObject\AxisIcon.cpp(1068): warning C4305: “=”: 从“double”到“GLfloat”截断
+SceneObject\AxisIcon.cpp(1069): warning C4305: “=”: 从“double”到“GLfloat”截断
+SceneObject\AxisIcon.cpp(1070): warning C4305: “=”: 从“double”到“GLfloat”截断
+SceneObject\AxisIcon.cpp(1077): warning C4305: “参数”: 从“double”到“float”截断
+SceneObject\AxisIcon.cpp(1079): warning C4305: “参数”: 从“double”到“float”截断
+SceneObject\AxisIcon.cpp(1081): warning C4305: “参数”: 从“double”到“GLfloat”截断
+SceneObject\AxisIcon.cpp(1089): warning C4305: “=”: 从“double”到“GLfloat”截断
+SceneObject\AxisIcon.cpp(1090): warning C4305: “=”: 从“double”到“GLfloat”截断
+SceneObject\AxisIcon.cpp(1091): warning C4305: “=”: 从“double”到“GLfloat”截断
+SceneObject\AxisIcon.cpp(1099): warning C4305: “参数”: 从“double”到“float”截断
+SceneObject\AxisIcon.cpp(1101): warning C4305: “参数”: 从“double”到“float”截断
+SceneObject\AxisIcon.cpp(1102): warning C4305: “参数”: 从“double”到“GLfloat”截断
+SceneObject\AxisIcon.cpp(1111): warning C4305: “=”: 从“double”到“GLfloat”截断
+SceneObject\AxisIcon.cpp(1112): warning C4305: “=”: 从“double”到“GLfloat”截断
+SceneObject\AxisIcon.cpp(1113): warning C4305: “=”: 从“double”到“GLfloat”截断
+SceneObject\AxisIcon.cpp(1121): warning C4305: “参数”: 从“double”到“float”截断
+SceneObject\AxisIcon.cpp(1123): warning C4305: “参数”: 从“double”到“float”截断
+SceneObject\AxisIcon.cpp(1124): warning C4305: “参数”: 从“double”到“GLfloat”截断
+  ObjectMotion.cpp
+  SceneCircleObj.cpp
+  SceneColorMeshObj.cpp
+SceneObject\SceneColorMeshObj.cpp(63): warning C4305: “=”: 从“double”到“float”截断
+SceneObject\SceneColorMeshObj.cpp(65): warning C4305: “=”: 从“double”到“float”截断
+SceneObject\SceneColorMeshObj.cpp(66): warning C4305: “=”: 从“double”到“float”截断
+SceneObject\SceneColorMeshObj.cpp(95): warning C4305: “=”: 从“double”到“float”截断
+SceneObject\SceneColorMeshObj.cpp(96): warning C4305: “=”: 从“double”到“float”截断
+  glShape.cpp
+d:\workproject\dentalortho_project\project\graphics\sceneobject\glShape.h(14): warning C4305: “参数”: 从“double”到“const float”截断
+SceneObject\glShape.cpp(87): warning C4305: “参数”: 从“double”到“GLfloat”截断
+SceneObject\glShape.cpp(859): warning C4305: “初始化”: 从“double”到“float”截断
+SceneObject\glShape.cpp(907): warning C4305: “参数”: 从“double”到“const float”截断
+  SceneCurveObj.cpp
+  SceneGeometryObj.cpp
+  SceneLineObj.cpp
+  SceneMeshObj.cpp
+  SceneObject.cpp
+  SceneSphereObj.cpp
+  sn3DCircleRenderer.cpp
+  sn3DCurveRenderer.cpp
+  sn3DGeometryRenderer.cpp
+  sn3DLineRenderer.cpp
+  sn3DMeshRenderer.cpp
+  sn3DNewMeshRender.cpp
+  sn3DRenderer.cpp
+  正在编译...
+  sn3DSphereRenderer.cpp
+d:\workproject\dentalortho_project\project\graphics\sceneobject\glShape.h(14): warning C4305: “参数”: 从“double”到“const float”截断
+  Camera.cpp
+  GLDrawFont.cpp
+  GLSLProgramObject.cpp
+  GreyShader.cpp
+  InteractorGL3D.cpp
+SceneRender\InteractorGL3D.cpp(30): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+SceneRender\InteractorGL3D.cpp(31): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+SceneRender\InteractorGL3D.cpp(100): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+SceneRender\InteractorGL3D.cpp(101): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+SceneRender\InteractorGL3D.cpp(122): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+SceneRender\InteractorGL3D.cpp(123): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+SceneRender\InteractorGL3D.cpp(134): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+SceneRender\InteractorGL3D.cpp(135): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+  LightColorGL.cpp
+SceneRender\LightColorGL.cpp(45): warning C4305: “=”: 从“double”到“float”截断
+SceneRender\LightColorGL.cpp(46): warning C4305: “=”: 从“double”到“float”截断
+SceneRender\LightColorGL.cpp(47): warning C4305: “=”: 从“double”到“float”截断
+  OpenGLDevice.cpp
+  PhongShader.cpp
+  SceneBaseObject.cpp
+SceneRender\SceneBaseObject.cpp(130): warning C4305: “return”: 从“int”到“bool”截断
+  SceneGL.cpp
+  SceneGL2D.cpp
+  SceneGL3D.cpp
+SceneRender\SceneGL3D.cpp(29): warning C4305: “参数”: 从“double”到“const float”截断
+SceneRender\SceneGL3D.cpp(30): warning C4305: “参数”: 从“double”到“const float”截断
+SceneRender\SceneGL3D.cpp(31): warning C4305: “参数”: 从“double”到“const float”截断
+SceneRender\SceneGL3D.cpp(40): warning C4305: “参数”: 从“double”到“const float”截断
+SceneRender\SceneGL3D.cpp(41): warning C4305: “参数”: 从“double”到“const float”截断
+SceneRender\SceneGL3D.cpp(42): warning C4305: “参数”: 从“double”到“const float”截断
+SceneRender\SceneGL3D.cpp(43): warning C4305: “参数”: 从“double”到“const float”截断
+SceneRender\SceneGL3D.cpp(44): warning C4305: “参数”: 从“double”到“const float”截断
+SceneRender\SceneGL3D.cpp(45): warning C4305: “参数”: 从“double”到“const float”截断
+SceneRender\SceneGL3D.cpp(46): warning C4305: “参数”: 从“double”到“const float”截断
+SceneRender\SceneGL3D.cpp(47): warning C4305: “参数”: 从“double”到“const float”截断
+SceneRender\SceneGL3D.cpp(48): warning C4305: “参数”: 从“double”到“const float”截断
+SceneRender\SceneGL3D.cpp(49): warning C4305: “参数”: 从“double”到“const float”截断
+SceneRender\SceneGL3D.cpp(50): warning C4305: “参数”: 从“double”到“const float”截断
+SceneRender\SceneGL3D.cpp(51): warning C4305: “参数”: 从“double”到“const float”截断
+SceneRender\SceneGL3D.cpp(52): warning C4305: “参数”: 从“double”到“const float”截断
+SceneRender\SceneGL3D.cpp(53): warning C4305: “参数”: 从“double”到“const float”截断
+SceneRender\SceneGL3D.cpp(54): warning C4305: “参数”: 从“double”到“const float”截断
+SceneRender\SceneGL3D.cpp(55): warning C4305: “参数”: 从“double”到“const float”截断
+SceneRender\SceneGL3D.cpp(56): warning C4305: “参数”: 从“double”到“const float”截断
+SceneRender\SceneGL3D.cpp(57): warning C4305: “参数”: 从“double”到“const float”截断
+SceneRender\SceneGL3D.cpp(58): warning C4305: “参数”: 从“double”到“const float”截断
+SceneRender\SceneGL3D.cpp(59): warning C4305: “参数”: 从“double”到“const float”截断
+SceneRender\SceneGL3D.cpp(60): warning C4305: “参数”: 从“double”到“const float”截断
+SceneRender\SceneGL3D.cpp(61): warning C4305: “参数”: 从“double”到“const float”截断
+SceneRender\SceneGL3D.cpp(62): warning C4305: “参数”: 从“double”到“const float”截断
+SceneRender\SceneGL3D.cpp(63): warning C4305: “参数”: 从“double”到“const float”截断
+SceneRender\SceneGL3D.cpp(64): warning C4305: “参数”: 从“double”到“const float”截断
+SceneRender\SceneGL3D.cpp(65): warning C4305: “参数”: 从“double”到“const float”截断
+SceneRender\SceneGL3D.cpp(66): warning C4305: “参数”: 从“double”到“const float”截断
+SceneRender\SceneGL3D.cpp(67): warning C4305: “参数”: 从“double”到“const float”截断
+SceneRender\SceneGL3D.cpp(68): warning C4305: “参数”: 从“double”到“const float”截断
+SceneRender\SceneGL3D.cpp(69): warning C4305: “参数”: 从“double”到“const float”截断
+SceneRender\SceneGL3D.cpp(70): warning C4305: “参数”: 从“double”到“const float”截断
+SceneRender\SceneGL3D.cpp(71): warning C4305: “参数”: 从“double”到“const float”截断
+SceneRender\SceneGL3D.cpp(72): warning C4305: “参数”: 从“double”到“const float”截断
+SceneRender\SceneGL3D.cpp(73): warning C4305: “参数”: 从“double”到“const float”截断
+SceneRender\SceneGL3D.cpp(74): warning C4305: “参数”: 从“double”到“const float”截断
+SceneRender\SceneGL3D.cpp(75): warning C4305: “参数”: 从“double”到“const float”截断
+SceneRender\SceneGL3D.cpp(76): warning C4305: “参数”: 从“double”到“const float”截断
+SceneRender\SceneGL3D.cpp(77): warning C4305: “参数”: 从“double”到“const float”截断
+SceneRender\SceneGL3D.cpp(78): warning C4305: “参数”: 从“double”到“const float”截断
+SceneRender\SceneGL3D.cpp(79): warning C4305: “参数”: 从“double”到“const float”截断
+SceneRender\SceneGL3D.cpp(80): warning C4305: “参数”: 从“double”到“const float”截断
+SceneRender\SceneGL3D.cpp(81): warning C4305: “参数”: 从“double”到“const float”截断
+SceneRender\SceneGL3D.cpp(82): warning C4305: “参数”: 从“double”到“const float”截断
+SceneRender\SceneGL3D.cpp(83): warning C4305: “参数”: 从“double”到“const float”截断
+SceneRender\SceneGL3D.cpp(84): warning C4305: “参数”: 从“double”到“const float”截断
+SceneRender\SceneGL3D.cpp(85): warning C4305: “参数”: 从“double”到“const float”截断
+SceneRender\SceneGL3D.cpp(735): warning C4305: “参数”: 从“double”到“GLfloat”截断
+SceneRender\SceneGL3D.cpp(739): warning C4305: “参数”: 从“double”到“GLfloat”截断
+  Shader.cpp
+  TextureGL.cpp
+  RangeData.cpp
+  Curvature.cpp
+  KDTree2.cpp
+  SpaceGrid.cpp
+  SpatialSubdivision.cpp
+  UniformGrid.cpp
+Geometry\UniformGrid.cpp(46): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+Geometry\UniformGrid.cpp(47): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+Geometry\UniformGrid.cpp(48): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+  ColorBar.cpp
+SceneObject\ColorBar.cpp(186): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+  SceneCoordSystemObj.cpp
+SceneObject\SceneCoordSystemObj.cpp(57): warning C4305: “=”: 从“double”到“float”截断
+SceneObject\SceneCoordSystemObj.cpp(771): warning C4305: “=”: 从“double”到“GLfloat”截断
+SceneObject\SceneCoordSystemObj.cpp(772): warning C4305: “=”: 从“double”到“GLfloat”截断
+SceneObject\SceneCoordSystemObj.cpp(773): warning C4305: “=”: 从“double”到“GLfloat”截断
+SceneObject\SceneCoordSystemObj.cpp(783): warning C4305: “=”: 从“double”到“GLfloat”截断
+SceneObject\SceneCoordSystemObj.cpp(784): warning C4305: “=”: 从“double”到“GLfloat”截断
+SceneObject\SceneCoordSystemObj.cpp(785): warning C4305: “=”: 从“double”到“GLfloat”截断
+SceneObject\SceneCoordSystemObj.cpp(793): warning C4305: “参数”: 从“double”到“float”截断
+SceneObject\SceneCoordSystemObj.cpp(796): warning C4305: “参数”: 从“double”到“float”截断
+SceneObject\SceneCoordSystemObj.cpp(797): warning C4305: “参数”: 从“double”到“GLfloat”截断
+SceneObject\SceneCoordSystemObj.cpp(803): warning C4305: “=”: 从“double”到“GLfloat”截断
+SceneObject\SceneCoordSystemObj.cpp(804): warning C4305: “=”: 从“double”到“GLfloat”截断
+SceneObject\SceneCoordSystemObj.cpp(805): warning C4305: “=”: 从“double”到“GLfloat”截断
+SceneObject\SceneCoordSystemObj.cpp(814): warning C4305: “参数”: 从“double”到“float”截断
+SceneObject\SceneCoordSystemObj.cpp(817): warning C4305: “参数”: 从“double”到“float”截断
+SceneObject\SceneCoordSystemObj.cpp(818): warning C4305: “参数”: 从“double”到“GLfloat”截断
+SceneObject\SceneCoordSystemObj.cpp(824): warning C4305: “=”: 从“double”到“GLfloat”截断
+SceneObject\SceneCoordSystemObj.cpp(825): warning C4305: “=”: 从“double”到“GLfloat”截断
+SceneObject\SceneCoordSystemObj.cpp(826): warning C4305: “=”: 从“double”到“GLfloat”截断
+SceneObject\SceneCoordSystemObj.cpp(835): warning C4305: “参数”: 从“double”到“float”截断
+SceneObject\SceneCoordSystemObj.cpp(838): warning C4305: “参数”: 从“double”到“float”截断
+SceneObject\SceneCoordSystemObj.cpp(839): warning C4305: “参数”: 从“double”到“GLfloat”截断
+SceneObject\SceneCoordSystemObj.cpp(864): warning C4838: 从“double”转换到“float”需要收缩转换
+SceneObject\SceneCoordSystemObj.cpp(864): warning C4305: “初始化”: 从“double”到“float”截断
+SceneObject\SceneCoordSystemObj.cpp(900): warning C4305: “=”: 从“double”到“GLfloat”截断
+SceneObject\SceneCoordSystemObj.cpp(901): warning C4305: “=”: 从“double”到“GLfloat”截断
+SceneObject\SceneCoordSystemObj.cpp(902): warning C4305: “=”: 从“double”到“GLfloat”截断
+SceneObject\SceneCoordSystemObj.cpp(913): warning C4305: “参数”: 从“double”到“GLfloat”截断
+SceneObject\SceneCoordSystemObj.cpp(950): warning C4838: 从“double”转换到“float”需要收缩转换
+SceneObject\SceneCoordSystemObj.cpp(950): warning C4305: “初始化”: 从“double”到“float”截断
+SceneObject\SceneCoordSystemObj.cpp(967): warning C4305: “=”: 从“double”到“GLfloat”截断
+SceneObject\SceneCoordSystemObj.cpp(968): warning C4305: “=”: 从“double”到“GLfloat”截断
+SceneObject\SceneCoordSystemObj.cpp(969): warning C4305: “=”: 从“double”到“GLfloat”截断
+SceneObject\SceneCoordSystemObj.cpp(981): warning C4305: “参数”: 从“double”到“GLfloat”截断
+SceneObject\SceneCoordSystemObj.cpp(1022): warning C4838: 从“double”转换到“float”需要收缩转换
+SceneObject\SceneCoordSystemObj.cpp(1022): warning C4305: “初始化”: 从“double”到“float”截断
+SceneObject\SceneCoordSystemObj.cpp(1043): warning C4305: “=”: 从“double”到“GLfloat”截断
+SceneObject\SceneCoordSystemObj.cpp(1044): warning C4305: “=”: 从“double”到“GLfloat”截断
+SceneObject\SceneCoordSystemObj.cpp(1045): warning C4305: “=”: 从“double”到“GLfloat”截断
+SceneObject\SceneCoordSystemObj.cpp(1056): warning C4305: “参数”: 从“double”到“GLfloat”截断
+  InfoBar.cpp
+SceneObject\InfoBar.cpp(44): warning C4305: “参数”: 从“double”到“const float”截断
+SceneObject\InfoBar.cpp(58): warning C4305: “=”: 从“double”到“float”截断
+SceneObject\InfoBar.cpp(66): warning C4305: “=”: 从“double”到“float”截断
+SceneObject\InfoBar.cpp(85): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+  ScenePointsObj.cpp
+  glPrimitive.cpp
+SceneObject\glPrimitive.cpp(53): warning C4305: “=”: 从“double”到“float”截断
+SceneObject\glPrimitive.cpp(741): warning C4838: 从“double”转换到“float”需要收缩转换
+SceneObject\glPrimitive.cpp(741): warning C4305: “初始化”: 从“double”到“float”截断
+SceneObject\glPrimitive.cpp(776): warning C4305: “=”: 从“double”到“GLfloat”截断
+SceneObject\glPrimitive.cpp(777): warning C4305: “=”: 从“double”到“GLfloat”截断
+SceneObject\glPrimitive.cpp(778): warning C4305: “=”: 从“double”到“GLfloat”截断
+SceneObject\glPrimitive.cpp(789): warning C4305: “参数”: 从“double”到“GLfloat”截断
+SceneObject\glPrimitive.cpp(827): warning C4838: 从“double”转换到“float”需要收缩转换
+SceneObject\glPrimitive.cpp(827): warning C4305: “初始化”: 从“double”到“float”截断
+SceneObject\glPrimitive.cpp(844): warning C4305: “=”: 从“double”到“GLfloat”截断
+SceneObject\glPrimitive.cpp(845): warning C4305: “=”: 从“double”到“GLfloat”截断
+SceneObject\glPrimitive.cpp(846): warning C4305: “=”: 从“double”到“GLfloat”截断
+SceneObject\glPrimitive.cpp(857): warning C4305: “参数”: 从“double”到“GLfloat”截断
+SceneObject\glPrimitive.cpp(899): warning C4838: 从“double”转换到“float”需要收缩转换
+SceneObject\glPrimitive.cpp(899): warning C4305: “初始化”: 从“double”到“float”截断
+SceneObject\glPrimitive.cpp(920): warning C4305: “=”: 从“double”到“GLfloat”截断
+SceneObject\glPrimitive.cpp(921): warning C4305: “=”: 从“double”到“GLfloat”截断
+SceneObject\glPrimitive.cpp(922): warning C4305: “=”: 从“double”到“GLfloat”截断
+SceneObject\glPrimitive.cpp(933): warning C4305: “参数”: 从“double”到“GLfloat”截断
+  SceneRangeObj.cpp
+SceneObject\SceneRangeObj.cpp(43): warning C4305: “=”: 从“double”到“float”截断
+  sn3DPointsRenderer.cpp
+  sn3DRangeRenderer.cpp
+SceneObject\sn3DRangeRenderer.cpp(236): warning C4244: “参数”: 从“int”转换到“GLfloat”，可能丢失数据
+  CrystalShader.cpp
+SceneRender\CrystalShader.cpp(310): warning C4305: “=”: 从“double”到“float”截断
+SceneRender\CrystalShader.cpp(311): warning C4305: “=”: 从“double”到“float”截断
+SceneRender\CrystalShader.cpp(312): warning C4305: “=”: 从“double”到“float”截断
+SceneRender\CrystalShader.cpp(314): warning C4305: “参数”: 从“double”到“GLfloat”截断
+  NormalColorShader.cpp
+  SplineShader.cpp
+  Graphics.vcxproj -> D:\WorkProject\dentalortho_project\project\Graphics\..\..\lib\x64\Graphics.lib
